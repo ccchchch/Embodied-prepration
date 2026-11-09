@@ -1,0 +1,37 @@
+name: 内容贡献与纠错
+description: 补充一道题、纠正内容、提供来源或反馈岗位状态
+title: "[贡献] "
+body:
+  - type: markdown
+    attributes:
+      value: "此 Issue 与 GitHub 账号将公开显示。请移除个人联系方式、保密内容和未获公开许可的截图。个人完整备份不要作为投稿附件。"
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 贡献类型
+      options:
+        - 补充题目
+        - 内容纠错
+        - 补充依据
+        - 反馈岗位状态
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: 关联页面链接或条目 ID
+      description: 新内容可以留空
+  - type: textarea
+    id: content
+    attributes:
+      label: 内容与来源
+      description: 说明补充或修改内容、公开依据，以及已知的公司、岗位和经历时间；也可以附上网站导出的投稿 JSON。
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: 公开范围确认
+      options:
+        - label: 我已检查内容可公开分享，并已移除个人联系方式和保密信息。
+          required: true

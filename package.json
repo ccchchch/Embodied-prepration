@@ -1,0 +1,13 @@
+{
+  "name": "embodied-prep",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node verify.mjs && node verify-career.mjs && node verify-community.mjs && node verify-dom.mjs",
+    "build": "node scripts/build-site.mjs"
+  },
+  "version": "0.2.0",
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}

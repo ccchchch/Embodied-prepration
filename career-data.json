@@ -1,0 +1,2734 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-09T14:51:51+08:00",
+  "statusNote": "目前 56 条已读来源、28 条面经记录（含 8 条相邻工程参考）、176 个整理题目主题；14 条薪资记录分为 3 条 offer 自述、2 条博主转述和 9 条招聘报价。另有 18 条已读招聘来源、6 条求职建议及 9 条待核实线索；分类重叠，记录数不等于候选人数或招聘人数。本轮新增 17 条已读来源及 3 条线索，扩展脉脉、实习僧、智联、Bonjour 和人才服务平台。已下线岗位及历史报价单独注明。知乎、公众号直连、B站/抖音视频与评论、一亩三分地仍覆盖有限，不宣称全网穷尽。",
+  "records": [
+    {
+      "id": "xhs-6aeed034000000001603d9fc",
+      "title": "自变量如何啊？要求下周就要做决定选了…",
+      "company": "自变量 / 方太 / 未具名具身初创",
+      "team": "",
+      "role": "VLA 后训练工程 / 厨房 VLA / 物流分拣（同一候选人的机会对比）",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "校招",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-11-07T15:16:04+08:00",
+      "collectedAt": "2026-11-09T13:44:50+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "同一作者比较多个机会：自变量为 VLA 后训练工程组，但初期可能做感知；方太为厨房 VLA；另有物流分拣初创。比较时需核实实际入组工作，不能只看方向名称。",
+      "questions": [],
+      "salary": {
+        "originalText": "自变量 58-60；具身初创 50+5签字费+10期权（一次性）；方太 50",
+        "basis": "笔记正文第 2—4 项；同一作者的多个机会，单位及周期未逐项说明",
+        "currency": "未披露",
+        "baseMonthly": null,
+        "guaranteedMonths": null,
+        "guaranteedAnnualCash": null,
+        "bonus": "未披露",
+        "signingBonus": "未具名物流初创：5（原帖未写单位）",
+        "equity": "同一初创：10 期权（原帖附“一次性”，估值、归属和兑现条件未披露）",
+        "totalClaimed": "自变量 58–60；方太 50；初创 50 + 5 签字费 + 10 期权（均保留原始数字）",
+        "taxBasis": "未披露",
+        "note": "不相加成保证现金，不将三个机会当三个独立候选人。"
+      },
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6aeed034000000001603d9fc",
+        "author": "睡不饱的吐司🍞"
+      },
+      "note": "招聘阶段据秋招话题及毕业入职讨论整理。安克“世界模型”仅发意向且尚未谈薪，未作为 WAM 薪资样本；其他未确认机会及关于公司的传闻未纳入。仅依据正文及作者补充。"
+    },
+    {
+      "id": "xhs-6aec1bdd000000001502170c",
+      "title": "OFFER 选择",
+      "company": "未披露的具身初创",
+      "team": "",
+      "role": "VLA 后训练",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "校招",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-11-05T14:02:05+08:00",
+      "collectedAt": "2026-11-09T13:44:10+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者比较具身初创与其他方向机会，具身岗位做 VLA 后训练，要求提前实习至毕业。仅整理该具身岗位；其他公司的录用与薪资仍不确定。",
+      "questions": [],
+      "salary": {
+        "originalText": "具身初创接近60个",
+        "basis": "笔记正文“薪资”段",
+        "currency": "未披露",
+        "baseMonthly": null,
+        "guaranteedMonths": null,
+        "guaranteedAnnualCash": null,
+        "bonus": "",
+        "signingBonus": "",
+        "equity": "",
+        "totalClaimed": "接近60个（作者原话，单位、周期及组成未展开）",
+        "taxBasis": "未披露",
+        "note": "未将“60个”换算为保证年现金；未确认税前/税后、现金/股权构成。"
+      },
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6aec1bdd000000001502170c",
+        "author": "Vladimirovna"
+      },
+      "note": "校招背景依据正文“实习直到毕业”及校招话题；公司、城市和书面 offer 细节未披露。作者的其他机会仍有未确认项。正文已读，配图未作信息来源。"
+    },
+    {
+      "id": "xhs-6ae9ce01000000000e00d5a5",
+      "title": "具身算法 offer怎么选、怎么问",
+      "company": "",
+      "team": "",
+      "role": "具身算法 offer 比较",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "实习 / 校招 / 转行（建议）",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-11-03T20:05:21+08:00",
+      "collectedAt": "2026-11-09T14:17:08+08:00",
+      "verification": "original-read",
+      "evidenceType": "advice",
+      "summary": "作者围绕项目成长、团队资源、报价拆分与转正条件给出选择建议。市场报价估计缺少样本方法，单列为观点。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6ae9ce01000000000e00d5a5",
+        "author": "具身漫步"
+      },
+      "note": "全部 8 张配图已读取。未把涨薪比例、城市岗位占比、公司估值门槛或期权折价当成统计事实；建议需结合具体岗位判断。",
+      "insights": [
+        "确认入组后真正负责的项目、研究与交付的比例，以及成果如何评价。",
+        "了解当前可分配的算力、真机与数据支持，并与未来 mentor 交流。",
+        "区分正式 offer、意向书和实习转正，核对名额、考核与时间。",
+        "分别比较现金、浮动项与期权；为答复时间和其他面试进度作明确沟通。",
+        "作者给出的应届 VLA 报价参考为：一线城市 985 硕士约 60–85 万、211 或强双非硕士约 45–70 万。未披露样本数、币种及总包构成，只保留为其观点，不计薪资样本。"
+      ]
+    },
+    {
+      "id": "xhs-6ae9b7560000000002035cc8",
+      "title": "10问 判断具身offer的好坏",
+      "company": "",
+      "team": "",
+      "role": "反向面试 / offer 核对",
+      "tracks": [
+        "VLA",
+        "Agentic Robotics",
+        "WAM"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-11-03T18:28:38+08:00",
+      "collectedAt": "2026-11-09T14:17:46+08:00",
+      "verification": "original-read",
+      "evidenceType": "advice",
+      "summary": "把作者的十项反问归并为五组，供与招聘方或未来主管交流时参考。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6ae9b7560000000002035cc8",
+        "author": "具身漫步"
+      },
+      "note": "依据全部 2 张配图。属于作者建议，反问题不计为面试官实际考题。",
+      "insights": [
+        "核实薪资组成、真实项目和当前技术路线。",
+        "了解可使用的计算资源、组织分工与团队人员构成。",
+        "明确自己的日常工作、考核方式与协作流程。",
+        "询问团队目标、关键指标和当前最需要解决的问题。",
+        "确认对新人的能力期待、学习支持；条件允许时观察实际工作环境。"
+      ]
+    },
+    {
+      "id": "xhs-6ae96193000000000e035eea",
+      "title": "酷哇科技research岗一面面经",
+      "company": "酷哇科技",
+      "team": "",
+      "role": "WAM 方向实习研究员；面试偏 Agentic / VLN",
+      "tracks": [
+        "VLA",
+        "Agentic Robotics",
+        "WAM"
+      ],
+      "hiringStage": "实习",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-11-03T18:00:42+08:00",
+      "collectedAt": "2026-11-09T14:27:45+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者明确称投递 WAM 研究岗，一面却以项目论文、操作基础模型、VLN 与 Agent 方案为主。没有手撕编程。",
+      "questions": [
+        {
+          "text": "介绍项目和论文中的方法细节。",
+          "context": "原帖正文第 1–5 项；题意概括"
+        },
+        {
+          "text": "对操作方向的 VLA、WAM 基础策略模型有何了解？",
+          "context": "原帖正文第 1–5 项；题意概括"
+        },
+        {
+          "text": "若加入团队，更倾向模型训练还是 Agent 方向，为什么？",
+          "context": "原帖正文第 1–5 项；题意概括"
+        },
+        {
+          "text": "Agentic 方案有哪些主要困难？暂不考虑时延时如何分析？",
+          "context": "原帖正文第 1–5 项；题意概括"
+        },
+        {
+          "text": "若在本地用 Qwen 作为决策模型，怎样低成本开展 Agent 实验？",
+          "context": "原帖正文第 1–5 项；题意概括"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6ae96193000000000e035eea",
+        "author": "3A老佛爷"
+      },
+      "note": "研究方向取自作者自述及作者评论；团队最终路线与实习是否以论文为目标尚无招聘方独立确认。",
+      "interview": {
+        "round": "一面",
+        "format": "项目 PPT 与开放讨论"
+      }
+    },
+    {
+      "id": "xhs-6ae9907c000000000e02606b",
+      "title": "企业岗位与薪资汇总｜老麦的未溯源区间",
+      "company": "智元等（作者整理，非公司发布）",
+      "team": "",
+      "role": "具身 / VLA 算法及其他岗位对照",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-11-03T15:42:52+08:00",
+      "collectedAt": "2026-11-09T14:30:19+08:00",
+      "verification": "original-read",
+      "evidenceType": "advice",
+      "summary": "作者按企业和岗位整理薪资区间，缺少招聘页链接、年份、经验要求和具体 offer 证明。保留为待交叉核对的市场观点。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6ae9907c000000000e02606b",
+        "author": "老麦 （学习ing）"
+      },
+      "note": "全部 5 张图已读取。没有把区间当作本人 offer 或公司官方报价，因此不计薪资样本；原帖的缺口和高薪判断亦未获得独立验证。",
+      "insights": [
+        "与目标方向直接相关的一项是“智元上海 VLA / 强化学习算法（硕士）28k–45k”；原图未明确周期、币种及保证薪数。",
+        "其余多为运控、SLAM、嵌入式、调试等岗位，不能混作 VLA / WAM 的同类薪资。",
+        "比较时应补齐具体团队、年限、地区、奖金条件与原始职位链接。"
+      ]
+    },
+    {
+      "id": "xhs-6ae8c4cc0000000034006ffe",
+      "title": "总包拆分与匿名上海初创预训练 offer 转述",
+      "company": "上海具身初创（未具名）",
+      "team": "",
+      "role": "预训练；另有交付岗对比",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "社招",
+      "location": "上海",
+      "experienceDate": "",
+      "publishedAt": "2026-11-03T01:13:48+08:00",
+      "collectedAt": "2026-11-09T14:16:30+08:00",
+      "verification": "original-read",
+      "evidenceType": "repost",
+      "summary": "作者在总包分析中转述两名学员的不同岗位报价。保留现金与期权的原始口径，不采用作者自定的期权折现系数。",
+      "questions": [],
+      "salary": {
+        "originalText": "预训练岗：现金120到130万（含年终浮动），另加期权120万，分四年成熟。",
+        "basis": "配图第 4 页的学员 offer 转述；第 5 页补充交付岗期权对比",
+        "currency": "原文未明写",
+        "baseMonthly": null,
+        "guaranteedMonths": null,
+        "guaranteedAnnualCash": null,
+        "bonus": "120–130 万现金口径包含年终浮动，保证部分不明",
+        "equity": "预训练岗期权账面 120 万，四年成熟；交付岗仅转述“可能就 5 万”，条件不全",
+        "totalClaimed": "现金 120–130 万；期权另列，不合并为保证年薪",
+        "taxBasis": "未披露",
+        "note": "公司和原始 offer 未披露；为多年以上工程背景社招案例，不能类比校招或认定为市场价。"
+      },
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6ae8c4cc0000000034006ffe",
+        "author": "具身漫步"
+      },
+      "note": "全部 6 张配图已读取。作者的期权折价及对公司价值的判断未采用；不推测匿名雇主身份。",
+      "insights": [
+        "逐项确认月薪、保证薪数、浮动奖金与一次性签字费。",
+        "询问股权类型、授予数量、估值或行权价、成熟节奏和离职后的安排。",
+        "比较 offer 时单列现金与股权，并核对书面条款。"
+      ]
+    },
+    {
+      "id": "xhs-6ae5ad310000000018026958",
+      "title": "面试会怎么问 具身智能",
+      "company": "",
+      "team": "",
+      "role": "具身算法求职准备",
+      "tracks": [
+        "VLA",
+        "Agentic Robotics",
+        "WAM"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-10-31T16:56:17+08:00",
+      "collectedAt": "2026-11-09T14:15:15+08:00",
+      "verification": "original-read",
+      "evidenceType": "advice",
+      "summary": "作者对项目讲述和技术追问的准备建议；没有对应到某位候选人的具体轮次。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6ae5ad310000000018026958",
+        "author": "具身漫步"
+      },
+      "note": "依据全部 5 张配图整理。属于带有辅导推广背景的作者观点；文中的通过率与高薪轶事未纳入统计。",
+      "insights": [
+        "围绕一至两个核心项目说明目标、难点、本人贡献与可验证结果。",
+        "准备训练与推理的数据流、输入输出、实现细节，以及失败案例。",
+        "能解释前沿方法的取舍、适用边界，并把讨论落到自己的实验。"
+      ]
+    },
+    {
+      "id": "xhs-6ae446f6000000001100cd9d",
+      "title": "具身面试官纯问项目",
+      "company": "多家具身公司（未具名）",
+      "team": "",
+      "role": "后训练 / 具身 Agent 等",
+      "tracks": [
+        "VLA",
+        "Agentic Robotics"
+      ],
+      "hiringStage": "实习",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-10-30T15:27:50+08:00",
+      "collectedAt": "2026-11-09T14:27:07+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者描述以 PPT 讲解 RL、带 value function 的 SFT 和具身 Agent 项目，再讨论个人实验观察；未给可还原的逐题清单。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6ae446f6000000001100cd9d",
+        "author": "Passion"
+      },
+      "note": "保留为求职过程记录，不从项目名称补造面试题；作者关于通过率、排名及算力的感受未当作公司事实。世界模型仅被提到，未确认 World Action Model 岗位。",
+      "interview": {
+        "format": "PPT 项目讲解与追问"
+      }
+    },
+    {
+      "id": "xhs-6ae43b22000000000e02f7c6",
+      "title": "Sharpa vla 算法 线下三面面经",
+      "company": "Sharpa",
+      "team": "",
+      "role": "VLA 算法",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "未披露",
+      "location": "上海（面试地点）",
+      "experienceDate": "",
+      "publishedAt": "2026-10-30T14:37:22+08:00",
+      "collectedAt": "2026-11-09T13:48:33+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者记录线下三面约一小时：项目交流、白板 LeetCode 和反问。原帖未给出具体编程题题面，因此只保存流程，不补造题目。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6ae43b22000000000e02f7c6",
+        "author": "阿卜加加加"
+      },
+      "note": "正文已读。原帖带秋招话题，但未明确校招或社招；上海是面试地点，不据此断定岗位工作地。作者对流程的评价属于单次经历，不推广为公司的普遍情况。",
+      "interview": {
+        "round": "三面",
+        "format": "线下：项目交流、白板编程、反问",
+        "durationMinutes": 60
+      }
+    },
+    {
+      "id": "xhs-6ade201d0000000033022c6f",
+      "title": "具身薪资区间汇总｜小汤算法的估计",
+      "company": "",
+      "team": "",
+      "role": "VLA / 世界模型薪资观察",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "校招及其他年限混合（原文未完整分层）",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-10-25T23:28:29+08:00",
+      "collectedAt": "2026-11-09T14:29:42+08:00",
+      "verification": "original-read",
+      "evidenceType": "advice",
+      "summary": "作者说明来自猎头交流、同学 offer 和多个招聘平台，属于综合参考，没有给出逐条数据或计算方法。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6ade201d0000000033022c6f",
+        "author": "小汤算法"
+      },
+      "note": "全部 5 张配图已读取。页面虽标“真实薪资”，但底表未公开；不计入独立薪资记录、不采用图中的均值与占比作为行业统计。世界模型未明确等同于 WAM，因此只标 VLA。",
+      "insights": [
+        "图中把 VLA 与世界模型合并，声称应届平均月薪为 40k、月薪范围为 40–150k、总包范围为 60–200 万；这些均是作者汇总口径，不是本库计算结果。",
+        "原文未给样本数、年份分布、地区权重、保证薪数与总包构成，区间不能直接解释为某个候选人的报价。",
+        "现金、奖金、签字费和股权需要拆分，具体报价还需回到同地区、年限与岗位的原始来源核对。"
+      ]
+    },
+    {
+      "id": "liepin-78688031",
+      "title": "世界模型算法工程师（未具名上市机器人公司）",
+      "company": "公司未披露；万宝盛华猎头发布",
+      "team": "",
+      "role": "WAM 算法工程师",
+      "tracks": [
+        "WAM"
+      ],
+      "hiringStage": "社招",
+      "location": "北京顺义区",
+      "experienceDate": "",
+      "publishedAt": "2026-10-23（更新）",
+      "collectedAt": "2026-11-09T14:15:13+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "要求硕士、3–5 年经验，工作包括动作条件建模、多步预测、规划与模型式强化学习，以及仿真到真机验证。",
+      "questions": [],
+      "salary": {
+        "originalText": "50-80k·15薪",
+        "basis": "猎聘职位页招聘报价",
+        "currency": "原文未明写",
+        "monthlyRange": "50–80k／月（招聘范围）",
+        "baseMonthly": null,
+        "guaranteedMonths": null,
+        "guaranteedAnnualCash": null,
+        "bonus": "页面写 15 薪，保证部分与浮动部分未拆开",
+        "taxBasis": "未披露",
+        "totalClaimed": "未披露保证年现金",
+        "note": "招聘范围不等于实际 offer；不把标注的 15 薪当作合同保证薪数。"
+      },
+      "source": {
+        "platform": "猎聘",
+        "url": "https://www.liepin.com/a/78688031.shtml",
+        "author": ""
+      },
+      "note": "雇主未实名披露；为猎头岗位信息，不是公司官方薪酬承诺。"
+    },
+    {
+      "id": "xhs-6ad56793000000002701490e",
+      "title": "宇树具身 Agent 后端，三面踩坑实录复盘",
+      "company": "宇树科技",
+      "team": "AI 软件 / 具身智能（作者描述）",
+      "role": "AI Agent 后端应用工程师（机器人方向）",
+      "tracks": [
+        "Agentic Robotics"
+      ],
+      "hiringStage": "社招",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-10-19T08:42:59+08:00",
+      "collectedAt": "2026-11-09T13:42:58+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者自述有 3 年后端经验，记录三轮技术面及 HR 面。重点是把 Agent 能力接入机器人服务，考查工程可靠性与物理执行风险；岗位侧重应用后端。",
+      "questions": [
+        {
+          "text": "机器人场景中如何处理 LLM 幻觉，并构建操作手册的 RAG 检索流程？",
+          "context": "配图 3；一面，题意归并"
+        },
+        {
+          "text": "如何设计 ReAct 循环、任务记忆与 Agent 评估？",
+          "context": "配图 4；一面，题意归并"
+        },
+        {
+          "text": "编写向量余弦相似度计算；实现保留句子边界的文本分块。",
+          "context": "配图 4、6；分别对应一面、二面编程题"
+        },
+        {
+          "text": "机器人工具调用如何做注册、鉴权、参数检查与执行前安全校验？",
+          "context": "配图 5；二面，题意归并"
+        },
+        {
+          "text": "怎样中止无效推理循环，并处理指令歧义、重试与状态异常？",
+          "context": "配图 5—7；二面，题意归并"
+        },
+        {
+          "text": "如何为仿真和真机设计可复现的评测、状态同步与灰度执行？",
+          "context": "配图 7—8；三面，题意归并"
+        },
+        {
+          "text": "多机器人并发时如何调度、隔离资源，并控制长任务的延迟和模型调用成本？",
+          "context": "配图 8；三面，题意归并"
+        },
+        {
+          "text": "对接世界—语言—动作模型的服务，与普通 LLM 服务有哪些差异？",
+          "context": "配图 7；三面，题意概括；原帖称 UnifoLM-WLA，未据此认定 WAM 算法岗"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6ad56793000000002701490e",
+        "author": "程序员明哥"
+      },
+      "note": "正文及全部 12 张配图已查看。招聘阶段取自配图 2“社招”；面试轮次与团队名称均为作者自述，尚无公司侧确认。HR 面涉及期望薪资，但没有披露金额。"
+    },
+    {
+      "id": "xhs-6ad21a81000000001803ad64",
+      "title": "vla实习小面经",
+      "company": "多家（题目未逐一对应公司）",
+      "team": "",
+      "role": "VLA 算法实习",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "实习",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-10-16T20:37:21+08:00",
+      "collectedAt": "2026-11-09T14:24:33+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者回忆前后两段求职中的算法问题，涵盖 π 系列、RTC、知识隔离和 RL token。公司名未与题目逐项对应。",
+      "questions": [
+        {
+          "text": "从论文与代码两层解释 π0 与 π0.5 的区别。",
+          "context": "配图第 3–5 页；最后一题来自作者补充评论，题意概括"
+        },
+        {
+          "text": "flow matching 相比扩散生成动作有什么差异，怎样优化？",
+          "context": "配图第 3–5 页；最后一题来自作者补充评论，题意概括"
+        },
+        {
+          "text": "RTC 与 knowledge insulation 如何实现？",
+          "context": "配图第 3–5 页；最后一题来自作者补充评论，题意概括"
+        },
+        {
+          "text": "VLM 如何和动作专家交互，CFG 起什么作用？",
+          "context": "配图第 3–5 页；最后一题来自作者补充评论，题意概括"
+        },
+        {
+          "text": "OpenVLA 与 π0.5 的取舍是什么？",
+          "context": "配图第 3–5 页；最后一题来自作者补充评论，题意概括"
+        },
+        {
+          "text": "RL token 的整体流程为何使用 VLA 末层特征？",
+          "context": "配图第 3–5 页；最后一题来自作者补充评论，题意概括"
+        },
+        {
+          "text": "为何采用外部 encoder/decoder 重建 RL token，而不直接取最后一个 token？",
+          "context": "配图第 3–5 页；最后一题来自作者补充评论，题意概括"
+        },
+        {
+          "text": "如何处理关节跳变，并在增加数据之外改善泛化？",
+          "context": "配图第 3–5 页；最后一题来自作者补充评论，题意概括"
+        },
+        {
+          "text": "FAST 怎样实现，为什么加入 π0.5 训练？",
+          "context": "配图第 3–5 页；最后一题来自作者补充评论，题意概括"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6ad21a81000000001803ad64",
+        "author": "啊吧啊吧"
+      },
+      "note": "全部 5 张配图已读取。作者称以真机项目为背景；未按昵称暗示猜测雇主，也未把“几乎无手撕”推广到所有公司。"
+    },
+    {
+      "id": "xhs-6acce3d90000000002028407",
+      "title": "具身智能面试手撕考什么",
+      "company": "千寻 / Sharpa / 原力灵机 / 智元等（分项标注）",
+      "team": "",
+      "role": "VLA 编程与工程基础",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "校招为主（汇总）",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-10-13T08:40:02+08:00",
+      "collectedAt": "2026-11-09T14:14:38+08:00",
+      "verification": "original-read",
+      "evidenceType": "repost",
+      "summary": "按公司归属保存编程题汇总。题目可能与同作者其他面经重复，不能据此增加面试频次或候选人数。",
+      "questions": [
+        {
+          "text": "实现带时间步条件的 AdaLN / DiT、flow matching 训练、PPO 或 GRPO。",
+          "context": "千寻智能；原文转述，未独立核实面试次数"
+        },
+        {
+          "text": "实现 self-attention / MHA 及交叉熵。",
+          "context": "千寻智能；MHA 另列青芒、智元、小鹏；原文转述，未独立核实面试次数"
+        },
+        {
+          "text": "矩阵乘法怎样改善缓存命中？实现 Top-K。",
+          "context": "Sharpa；原文转述，未独立核实面试次数"
+        },
+        {
+          "text": "实现自回归与训练阶段 RTC 的 KV Cache。",
+          "context": "原力灵机；与该公司面经重叠；原文转述，未独立核实面试次数"
+        },
+        {
+          "text": "实现 flow matching 的训练与采样过程。",
+          "context": "智元、普渡、千寻、原力灵机；原文转述，未独立核实面试次数"
+        },
+        {
+          "text": "写出 Transformer 前向传播。",
+          "context": "众擎；原文转述，未独立核实面试次数"
+        },
+        {
+          "text": "接雨水、岛屿数量、旋转图像。",
+          "context": "依次归属大晓、腾讯 Robotics X、小鹏；原文转述，未独立核实面试次数"
+        },
+        {
+          "text": "求满足极差限制的最长子数组；含负数时求和为 k 的最长子数组。",
+          "context": "依次归属傅利叶、华为；原文转述，未独立核实面试次数"
+        },
+        {
+          "text": "线程与进程、Python 装饰器怎样使用？",
+          "context": "千里：线程进程；无界与银河：装饰器；原文转述，未独立核实面试次数"
+        },
+        {
+          "text": "解释 C++ union/struct、线程及单例模式。",
+          "context": "银河通用；原文转述，未独立核实面试次数"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6acce3d90000000002028407",
+        "author": "具身漫步"
+      },
+      "note": "正文及作者评论已读取。未把作者关于“高频”或“多数公司不考”的概括转换为统计结论；无公司归属的补充题未混入公司面经。"
+    },
+    {
+      "id": "xhs-6acc4f2d000000001402d905",
+      "title": "松延动力：校招最低薪资60w",
+      "company": "松延动力",
+      "team": "",
+      "role": "VLA 算法",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "校招",
+      "location": "",
+      "experienceDate": "2026-07（作者称多数题源来自该月）",
+      "publishedAt": "2026-10-12T12:15:04+08:00",
+      "collectedAt": "2026-11-09T14:15:53+08:00",
+      "verification": "original-read",
+      "evidenceType": "repost",
+      "summary": "机器人数据采集、真机调试与策略部署相关追问较集中；薪资是博主转述，尚无 offer 文件或公司确认。",
+      "questions": [
+        {
+          "text": "解释 π0.5 的 Gemma 与动作专家，以及 100 ms 部署延迟怎样测量。",
+          "context": "正文 Q1–Q15；转述题意归并"
+        },
+        {
+          "text": "项目里如何处理非马尔可夫状态，选择训练数据、GPU 与环境变化？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        },
+        {
+          "text": "LeRobot 策略和硬件适配如何实现？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        },
+        {
+          "text": "主从机械臂、末端位姿控制和移动操作如何组织？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        },
+        {
+          "text": "如何排查相机掉帧、Piper SDK 与通信问题？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        },
+        {
+          "text": "CAN/USB 链路、状态反馈与推理执行的频率分别是多少？30 Hz 指哪一层？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        },
+        {
+          "text": "如何设计采集流程，并解释 flow matching、PPO、DPO 的目标？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        }
+      ],
+      "salary": {
+        "originalText": "“松延vla校招白菜价60w”",
+        "basis": "博主正文转述",
+        "currency": "原文未明写",
+        "baseMonthly": null,
+        "guaranteedMonths": null,
+        "guaranteedAnnualCash": null,
+        "totalClaimed": "60w（作者称校招报价，构成及周期未拆分）",
+        "taxBasis": "未披露",
+        "note": "不能把帖子标题的“最低薪资”视为公司承诺或统一下限。"
+      },
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6acc4f2d000000001402d905",
+        "author": "具身漫步"
+      },
+      "note": "学历门槛与公司评价均为作者观点，未核定为招聘硬性要求。"
+    },
+    {
+      "id": "xhs-6acc3f100000000015013400",
+      "title": "原力灵机·具身智能vla面经",
+      "company": "原力灵机",
+      "team": "",
+      "role": "VLA / VLA + RL",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-10-12T09:59:44+08:00",
+      "collectedAt": "2026-11-09T14:12:09+08:00",
+      "verification": "original-read",
+      "evidenceType": "repost",
+      "summary": "作者汇总学员与公开题源，重点覆盖动作分块、训练阶段 RTC、部署频率、失败数据和价值模型。原文列出 27 个追问，以下归并为主题。",
+      "questions": [
+        {
+          "text": "如何比较 OpenVLA、RT-2 与 π 系列，以及离散、连续动作表示？",
+          "context": "正文 Q1–Q27；按主题归并的转述题意"
+        },
+        {
+          "text": "何时刷新 KV Cache？怎样解释状态输入位置与模型版本差异？",
+          "context": "正文 Q1–Q27；按主题归并的转述题意"
+        },
+        {
+          "text": "动作预测长度、实际执行长度和平滑窗口如何一起选择？",
+          "context": "正文 Q1–Q27；按主题归并的转述题意"
+        },
+        {
+          "text": "高成功率示范仍有哪些盲区？抽帧、主从位姿与偶发抖动怎样排查？",
+          "context": "正文 Q1–Q27；按主题归并的转述题意"
+        },
+        {
+          "text": "训练阶段 RTC 的目标、训练和推理流程如何设计？为什么适合双臂任务？",
+          "context": "正文 Q1–Q27；按主题归并的转述题意"
+        },
+        {
+          "text": "依据新观测重规划时，如何连接已有动作前缀与新后缀？",
+          "context": "正文 Q1–Q27；按主题归并的转述题意"
+        },
+        {
+          "text": "调度频率变化为何引起动作幅度异常？如何测时延并保障长时间运行？",
+          "context": "正文 Q1–Q27；按主题归并的转述题意"
+        },
+        {
+          "text": "子任务语言监督、advantage 阈值和价值模型效果如何验证？",
+          "context": "正文 Q1–Q27；按主题归并的转述题意"
+        },
+        {
+          "text": "如何处理稀疏奖励、人工纠正、失败轨迹及离线到在线分布差异？",
+          "context": "正文 Q1–Q27；按主题归并的转述题意"
+        },
+        {
+          "text": "编程：分别写出普通自回归和训练阶段 RTC 的 KV Cache 使用流程。",
+          "context": "正文 Q1–Q27；按主题归并的转述题意"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6acc3f100000000015013400",
+        "author": "具身漫步"
+      },
+      "note": "仅整理正文题目；公司评价未采用。来源为学员与网络的混合汇总，未据此统计独立候选人数；可能与既有截图题源重叠，不增加面试频次。"
+    },
+    {
+      "id": "xhs-6acb6fa0000000001a0307de",
+      "title": "小米、自变量、苏度 具身智能面经",
+      "company": "小米 / 苏度科技 / 自变量",
+      "team": "",
+      "role": "具身 VLA；按公司分列的汇总",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-10-11T19:14:40+08:00",
+      "collectedAt": "2026-11-09T14:12:46+08:00",
+      "verification": "original-read",
+      "evidenceType": "repost",
+      "summary": "一帖覆盖三个公司的题源。每个主题保留公司归属；自变量部分由作者明确标注来自网络，不能视作作者亲历。",
+      "questions": [
+        {
+          "text": "小米：如何设计 VLA 架构、解释路线取舍并识别长期瓶颈？",
+          "context": "小米 Q1–Q4；题意概括"
+        },
+        {
+          "text": "小米：怎样组织 VLA 与强化学习结合的技术综述？",
+          "context": "小米 Q5；题意概括"
+        },
+        {
+          "text": "苏度：如何从 LeRobot 轨迹可视化六轴机械臂运动？逆解多解怎样保持连续？",
+          "context": "苏度 Q1–Q2；题意概括"
+        },
+        {
+          "text": "苏度：flow matching 推理步数、预测长度和执行长度如何取舍？",
+          "context": "苏度 Q3–Q4；题意概括"
+        },
+        {
+          "text": "苏度：如何完成深度点云转换和 VR 遥操作的尺度处理？",
+          "context": "苏度 Q5；题意概括"
+        },
+        {
+          "text": "自变量：LeRobot 转换、UMI 与本体时间对齐，以及失败数据利用如何实现？",
+          "context": "自变量 Q1–Q3；作者标注源于网络；题意概括"
+        },
+        {
+          "text": "自变量：π0.5 中视觉语言模型与动作专家怎样交互，RTC 怎样维持连续执行？",
+          "context": "自变量 Q4–Q5；作者标注源于网络；题意概括"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6acb6fa0000000001a0307de",
+        "author": "具身漫步"
+      },
+      "note": "正文 15 个原始问题按公司归并；未披露各经历的日期、轮次和阶段。三个公司不等于三份可独立统计的候选人样本。"
+    },
+    {
+      "id": "xhs-6acb444c0000000015005aa8",
+      "title": "智元·具身智能vla面经",
+      "company": "智元机器人",
+      "team": "",
+      "role": "VLA / VLA + RL",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "实习及正式（混合汇总）",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-10-11T16:09:48+08:00",
+      "collectedAt": "2026-11-09T14:13:24+08:00",
+      "verification": "original-read",
+      "evidenceType": "repost",
+      "summary": "作者汇总数位学员与公开题源，评论说明同时包含实习和正式岗位。重点是项目实验设计、动作表示、注意力、数据采集和微调。",
+      "questions": [
+        {
+          "text": "视觉难以区分接触状态时，如何评估力觉、奖励分类器和其他失败原因？",
+          "context": "正文 Q1–Q18；转述题意归并"
+        },
+        {
+          "text": "如何设计人工奖励对照实验，判断 advantage head 过拟合与 SFT 的作用？",
+          "context": "正文 Q1–Q18；转述题意归并"
+        },
+        {
+          "text": "将已有操作策略迁至双足本体，如何估算工作量？",
+          "context": "正文 Q1–Q18；转述题意归并"
+        },
+        {
+          "text": "π0 与 π0.5 的实现、连续轨迹编码、离散与连续动作有什么差异？",
+          "context": "正文 Q1–Q18；转述题意归并"
+        },
+        {
+          "text": "怎样比较 ACT 与 RTC，并解释 QKV、缓存内容及张量维度？",
+          "context": "正文 Q1–Q18；转述题意归并"
+        },
+        {
+          "text": "推导并实现 flow matching 训练；解释潜在动作预训练与 VLA 方案取舍。",
+          "context": "正文 Q1–Q18；转述题意归并"
+        },
+        {
+          "text": "LoRA 的插入位置、训练成本与效果如何验证？",
+          "context": "正文 Q1–Q18；转述题意归并"
+        },
+        {
+          "text": "如何选择关节或末端动作表示，处理 UMI 数据、增强、抽帧与采样频率？",
+          "context": "正文 Q1–Q18；转述题意归并"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6acb444c0000000015005aa8",
+        "author": "具身漫步"
+      },
+      "note": "招聘阶段依据作者回复“都有”。不采纳文中未经验证的公司经营和演示真实性评价。"
+    },
+    {
+      "id": "xhs-6acb3ff1000000000a01d1be",
+      "title": "小鹏·具身智能vla面经2",
+      "company": "小鹏机器人",
+      "team": "",
+      "role": "具身 VLA / RL",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-10-11T15:51:13+08:00",
+      "collectedAt": "2026-11-09T14:14:00+08:00",
+      "verification": "original-read",
+      "evidenceType": "repost",
+      "summary": "机器人方向题源，关注 RECAP、接触操作、标定、仿真资产与纠正数据；作者汇总学员和网络记录。",
+      "questions": [
+        {
+          "text": "项目中承担了哪些工作，哪些参数冻结、哪些参与训练？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        },
+        {
+          "text": "RLT 的 actor/critic 设计、RECAP 局限、AWBC 与 DAgger 如何比较？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        },
+        {
+          "text": "π0.5 预训练如何对齐模态，FAST 怎样编码动作？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        },
+        {
+          "text": "如何分析仿真到真机的差异，判断改进是否超过有效基线？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        },
+        {
+          "text": "相机内外参、3D 资产精度与插接任务误差如何关联？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        },
+        {
+          "text": "如何设计人工介入和 DAgger 数据，避免纠正后遗忘？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        },
+        {
+          "text": "reflow 后的遗忘或退化怎样定位和验证？",
+          "context": "正文 Q1–Q15；转述题意归并"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6acb3ff1000000000a01d1be",
+        "author": "具身漫步"
+      },
+      "note": "原文标注小鹏机器人，未混入自动驾驶薪资帖。作者评论称其学员未考手撕，不能推广为公司的统一流程。"
+    },
+    {
+      "id": "xhs-6acb3974000000000202aaf0",
+      "title": "银河通用·具身智能vla面经1",
+      "company": "银河通用（汇总帖归属）",
+      "team": "",
+      "role": "VLA / VLA + RL；多来源汇总",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-10-11T15:23:32+08:00",
+      "collectedAt": "2026-11-09T13:47:44+08:00",
+      "verification": "original-read",
+      "evidenceType": "repost",
+      "summary": "作者明确说明题目混合来自数位辅导学员和公开内容。以下作为面经转述线索使用，不能视作一名候选人的完整面试或该公司的统一题单。",
+      "questions": [
+        {
+          "text": "如何区分训练和推理阶段的 RTC，以及同步与异步控制？",
+          "context": "正文分组题目；转述汇总，合并概括，非一手逐题复核"
+        },
+        {
+          "text": "如何选择 VLA 基线，并比较 π0.5 与 OpenVLA？",
+          "context": "正文分组题目；转述汇总，合并概括，非一手逐题复核"
+        },
+        {
+          "text": "力触觉怎样接入 VLA？插入任务与柔性物体操作各难在哪里？",
+          "context": "正文分组题目；转述汇总，合并概括，非一手逐题复核"
+        },
+        {
+          "text": "如何推导 flow matching，选择动作空间与旋转表示？",
+          "context": "正文分组题目；转述汇总，合并概括，非一手逐题复核"
+        },
+        {
+          "text": "LeRobot 数据版本、轨迹滤波降采样及 DAgger 数据使用有什么注意点？",
+          "context": "正文分组题目；转述汇总，合并概括，非一手逐题复核"
+        },
+        {
+          "text": "GRPO 的取舍是什么？怎样检查 token 压缩带来的信息损失？",
+          "context": "正文分组题目；转述汇总，合并概括，非一手逐题复核"
+        },
+        {
+          "text": "机器人 RL 与语言模型 RL 有哪些差异？如何设计 actor/critic 和后训练路线？",
+          "context": "正文分组题目；转述汇总，合并概括，非一手逐题复核"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6acb3974000000000202aaf0",
+        "author": "具身漫步"
+      },
+      "note": "正文已读；“陪跑学员 + 网上公开”来源性质取自作者原话。招聘阶段和轮次未按单个经历拆明；未采纳文中缺乏证据的公司经营、算力和团队评价。"
+    },
+    {
+      "id": "xhs-6aa8e3cd000000000d026d88",
+      "title": "英伟达robotics面经（四）",
+      "company": "英伟达 NVIDIA",
+      "team": "",
+      "role": "机器人算法 / 世界模型",
+      "tracks": [
+        "VLA",
+        "WAM"
+      ],
+      "hiringStage": "校招（原帖秋招语境）",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-09-15T14:21:01+08:00",
+      "collectedAt": "2026-11-09T14:29:03+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "英文技术面记录，包含模仿与强化学习、动作监督空间、微调、世界模型评测和触觉；作者称有 ML 相关代码题，但没有披露题面。",
+      "questions": [
+        {
+          "text": "模仿学习与强化学习的核心差异是什么？",
+          "context": "原帖正文第 1–6 项；题意概括"
+        },
+        {
+          "text": "关节空间与末端位姿空间监督分别有什么优势和限制？",
+          "context": "原帖正文第 1–6 项；题意概括"
+        },
+        {
+          "text": "LoRA 与全量微调怎样取舍？",
+          "context": "原帖正文第 1–6 项；题意概括"
+        },
+        {
+          "text": "比较像素空间与 latent 世界模型。",
+          "context": "原帖正文第 1–6 项；题意概括"
+        },
+        {
+          "text": "世界模型如何设计评估指标？",
+          "context": "原帖正文第 1–6 项；题意概括"
+        },
+        {
+          "text": "怎样编码触觉并接入世界模型？",
+          "context": "原帖正文第 1–6 项；题意概括"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6aa8e3cd000000000d026d88",
+        "author": "Seattle具身版"
+      },
+      "note": "标题“（四）”是帖子编号，未据此认定第四轮。与同作者前帖关联保存，不统计为新增独立候选人；不补造代码题。",
+      "interview": {
+        "format": "英文面试；含 ML 编程，题面未披露",
+        "candidateProcess": "xhs-Seattle-NVIDIA-2026"
+      }
+    },
+    {
+      "id": "zju-positec-5AF7B58AA324C650E0653A68DD0E9B18",
+      "title": "宝时得｜2027 多模态 VLA 算法校招",
+      "company": "宝时得",
+      "team": "",
+      "role": "多模态 VLA 算法工程师",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "校招",
+      "location": "苏州",
+      "experienceDate": "",
+      "publishedAt": "2026-09-10 18:07:25",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "硕士岗位，面向多轴机械臂操作；要求模型训练、强化/模仿学习、数据采集和真机迁移能力。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "高校就业网",
+        "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5AF7B58AA324C650E0653A68DD0E9B18",
+        "author": "宝时得（浙江大学就业网发布）"
+      },
+      "note": "WA/World Models 的提及不足以单独确认 WAM 岗位，因此仅标 VLA；当前投递状态仍以企业端为准。",
+      "insights": [
+        "涉及 VLA/VA/WA、ACT、Diffusion Policy，及边缘端推理。",
+        "需具备机器人仿真与调试经验；平台列出 2 人、截止 2026-12-31，薪资面议。"
+      ]
+    },
+    {
+      "id": "xhs-6aa15148000000002803881f",
+      "title": "多公司实习记录｜京东具身 Agent 与蔚来 WAM 讨论",
+      "company": "京东 / 蔚来（分项标注）",
+      "team": "",
+      "role": "具身场景 Agent；WAM 相关讨论",
+      "tracks": [
+        "VLA",
+        "Agentic Robotics",
+        "WAM"
+      ],
+      "hiringStage": "实习",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-09-09T20:30:01+08:00",
+      "collectedAt": "2026-11-09T14:25:49+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "原帖为多方向实习合集，仅保留明确涉及具身或 WAM 的部分。蔚来团队业务范围未披露，不能确认属于机器人而非其他业务。",
+      "questions": [
+        {
+          "text": "如何设计具身场景中的视频生成 Agent，并检查数据质量？",
+          "context": "京东一面；配图第 5 页"
+        },
+        {
+          "text": "实现多头注意力。",
+          "context": "京东一面；配图第 5 页"
+        },
+        {
+          "text": "VLA 和 WAM 的范式有什么差异，当前 VLA 可以怎样改进？",
+          "context": "蔚来一面；配图第 1 页；业务归属待核"
+        },
+        {
+          "text": "解释 flow matching，以及对 Dream-zero、Cosmos 的了解。",
+          "context": "蔚来二面；配图第 1 页；保留原文模型写法"
+        },
+        {
+          "text": "围绕论文方法提出研究计划。",
+          "context": "蔚来二面；配图第 1 页"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6aa15148000000002803881f",
+        "author": "Herr Gesegneter"
+      },
+      "note": "全部 8 张图已读取。未混入腾讯视频创作、阿里出行、字节搜索等通用 Agent 面经；同一帖子和作者只计一条来源记录。",
+      "relevance": "adjacent"
+    },
+    {
+      "id": "xhs-6a984bd80000000011037330",
+      "title": "新兴招聘热门：具身Agent入门指引",
+      "company": "",
+      "team": "",
+      "role": "具身 Agent 入门准备",
+      "tracks": [
+        "Agentic Robotics"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-09-03T00:16:24+08:00",
+      "collectedAt": "2026-11-09T14:21:36+08:00",
+      "verification": "original-read",
+      "evidenceType": "advice",
+      "summary": "作者在正文概括 Agent、VLA、机器人运行系统和 Harness 的分工，建议从单任务闭环与失败回放积累项目经验。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6a984bd80000000011037330",
+        "author": "具身漫步"
+      },
+      "note": "仅依据可直接读取的正文概括，未声称读完 10 张配图。作者关于“招聘猛增”的判断未获独立统计支持。",
+      "insights": [
+        "按任务决策、动作生成、硬件执行和系统编排划分模块责任。",
+        "补齐 Linux、Python、ROS2、模型推理与数据处理基础。",
+        "先在仿真跑通单任务，再加入观测、模型、动作执行、记录和评测。",
+        "保存失败轨迹，用回放定位问题并验证改进。"
+      ]
+    },
+    {
+      "id": "hebut-79991",
+      "title": "北京人形机器人创新中心｜世界模型算法工程师",
+      "company": "北京人形机器人创新中心",
+      "team": "",
+      "role": "多模态大模型 / 世界模型",
+      "tracks": [
+        "VLA",
+        "Agentic Robotics",
+        "WAM"
+      ],
+      "hiringStage": "校园渠道（具体届次未披露）",
+      "location": "北京",
+      "experienceDate": "",
+      "publishedAt": "2026-09-02",
+      "collectedAt": "2026-11-09T14:22:13+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "面向人形机器人自主行为研发，结合大小脑、世界模型与全身任务执行，要求硕士及机器人仿真或真机经验。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "高校就业网",
+        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/79991.html",
+        "author": ""
+      },
+      "note": "高校企业招聘页的“10000元以上”是宽泛档位，未明确周期与薪资结构，未计入可比较薪资记录。岗位当前是否仍开放待向招聘方确认。",
+      "insights": [
+        "任务覆盖抓取、搬运、开关门、工具使用与移动操作。",
+        "需要建立数据采集、模型评测、任务回归和真机验证流程。",
+        "职位明确接受 VLA、World Action Model、Embodied Agent 或视频预测等相关研究经历。"
+      ]
+    },
+    {
+      "id": "hebut-79989",
+      "title": "北京人形机器人创新中心｜AI Agent 算法工程师",
+      "company": "北京人形机器人创新中心",
+      "team": "",
+      "role": "Robotic Agent 算法",
+      "tracks": [
+        "Agentic Robotics"
+      ],
+      "hiringStage": "校园渠道（具体届次未披露）",
+      "location": "北京",
+      "experienceDate": "",
+      "publishedAt": "2026-09-02",
+      "collectedAt": "2026-11-09T14:27:21+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "以视频理解实现任务拆解和反馈反思，整合机器人感知与操作模块，并完成云端或端侧部署。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "高校就业网",
+        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/79989.html",
+        "author": ""
+      },
+      "note": "岗位与世界模型岗为两个独立职位。页面“10000元以上”档位缺少明确周期与结构，不作为可比较薪资样本。",
+      "insights": [
+        "要求硕士背景，具备 Python、PyTorch / DeepSpeed 与大模型训练经验。",
+        "职责包括数据整理、模型设计和优化，以及与实际机器人交互验证。",
+        "关注 LLM / VLM 的微调、评测与 Agent 设计经验。"
+      ]
+    },
+    {
+      "id": "xhs-6a95555d0000000004009ce5",
+      "title": "银河通用面试有点强度啊",
+      "company": "银河通用",
+      "team": "",
+      "role": "具身 VLA 算法",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "校招（原帖标签）",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-08-31T18:20:13+08:00",
+      "collectedAt": "2026-11-09T14:26:29+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者自报硕士及三段具身实习背景，面试涉及数据格式、降采样、策略生成与 RTC，包含较开放的技术追问。",
+      "questions": [
+        {
+          "text": "LeRobot v3.0 相比 v2.1 有哪些改进？",
+          "context": "原帖正文第 1–7 项；题意概括"
+        },
+        {
+          "text": "原始数据如何降采样并进行滤波？",
+          "context": "原帖正文第 1–7 项；题意概括"
+        },
+        {
+          "text": "GRPO 的优势是什么？",
+          "context": "原帖正文第 1–7 项；题意概括"
+        },
+        {
+          "text": "解释 flow matching 的公式。",
+          "context": "原帖正文第 1–7 项；题意概括"
+        },
+        {
+          "text": "π0.5 和 OpenVLA 的优缺点是什么？",
+          "context": "原帖正文第 1–7 项；题意概括"
+        },
+        {
+          "text": "训练阶段与推理阶段的 RTC 有何区别？",
+          "context": "原帖正文第 1–7 项；题意概括"
+        },
+        {
+          "text": "RL token 压缩会损失多少信息，怎样分析？",
+          "context": "原帖正文第 1–7 项；题意概括"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6a95555d0000000004009ce5",
+        "author": "具身小光学长"
+      },
+      "note": "作者未给具体轮次或经历日期；采集记录不核验个人学历，也不据单帖认定统一难度。"
+    },
+    {
+      "id": "xhs-6a74576e000000000502b2e4",
+      "title": "自变量预训练面经",
+      "company": "自变量",
+      "team": "",
+      "role": "预训练；包含 WM 与 VLA 融合考题",
+      "tracks": [
+        "VLA",
+        "WAM"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-08-06T19:01:20+08:00",
+      "collectedAt": "2026-11-09T13:47:05+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者记录两轮面试，重点考查规模化训练经历，并给出将世界模型与 VLA 融合的开放设计题。WAM 标签表示考题相关，不代表原帖明确命名了 WAM 岗位。",
+      "questions": [
+        {
+          "text": "如何说明既往模型训练的规模、效率，以及数据清洗方案？",
+          "context": "正文；题意概括"
+        },
+        {
+          "text": "如何比较 diffusion 与 flow matching，并解释迭代去噪的必要性？",
+          "context": "正文；题意概括"
+        },
+        {
+          "text": "真机失败怎样反馈至下一轮训练？多人共同训练如何协作？",
+          "context": "正文；题意概括"
+        },
+        {
+          "text": "若融合世界模型与 VLA，怎样估算工作量、算力需求和训练难点？",
+          "context": "正文；题意概括"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6a74576e000000000502b2e4",
+        "author": "Seattle具身版"
+      },
+      "note": "正文已读。原帖同时带有秋招和社招话题，无法确定招聘阶段。关于模型是否上机和推理延迟的内容属于候选人反问，未计入面试官提问。未披露薪资。"
+    },
+    {
+      "id": "xhs-6a7319e200000000220300d1",
+      "title": "英伟达robotics面经",
+      "company": "英伟达 NVIDIA",
+      "team": "",
+      "role": "机器人大模型算法",
+      "tracks": [
+        "VLA",
+        "Agentic Robotics",
+        "WAM"
+      ],
+      "hiringStage": "校招（原帖标签）",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-08-05T19:09:22+08:00",
+      "collectedAt": "2026-11-09T14:28:25+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者记录开放技术讨论：世界模型如何辅助动作生成、RTC 精度、记忆与 Agent + RL，以及真实机器人数据。",
+      "questions": [
+        {
+          "text": "真机项目中最难的问题是什么，如何解决？",
+          "context": "原帖正文第 1–7 项；题意概括"
+        },
+        {
+          "text": "世界模型与 VLA 的本质差异是什么，未来预测如何帮助 action flow 学习？",
+          "context": "原帖正文第 1–7 项；题意概括"
+        },
+        {
+          "text": "解释相关 RL 运控算法。",
+          "context": "原帖正文第 1–7 项；题意概括"
+        },
+        {
+          "text": "训练与推理 RTC 有何差异，加入后真机精度下降如何排查？",
+          "context": "原帖正文第 1–7 项；题意概括"
+        },
+        {
+          "text": "如何设计长短期记忆与 Agent + RL？",
+          "context": "原帖正文第 1–7 项；题意概括"
+        },
+        {
+          "text": "特定场景的真机采集、数据配比与后训练如何处理？",
+          "context": "原帖正文第 1–7 项；题意概括"
+        },
+        {
+          "text": "真机和仿真数据各有什么价值与限制？",
+          "context": "原帖正文第 1–7 项；题意概括"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6a7319e200000000220300d1",
+        "author": "Seattle具身版"
+      },
+      "note": "与同作者“面经（四）”可能属于同一次求职流程，不能计成独立候选人。WAM 标签表示世界预测与动作策略结合内容，不推断官方岗位名称。",
+      "interview": {
+        "format": "开放技术讨论；作者评论称有中英文面试",
+        "candidateProcess": "xhs-Seattle-NVIDIA-2026"
+      }
+    },
+    {
+      "id": "baidu-J100650",
+      "title": "百度公有云｜具身大模型研发工程师 J100650",
+      "company": "百度",
+      "team": "ACG / 公有云",
+      "role": "具身大模型研发",
+      "tracks": [
+        "VLA",
+        "WAM"
+      ],
+      "hiringStage": "社招",
+      "location": "北京 / 上海",
+      "experienceDate": "",
+      "publishedAt": "2026-08-05",
+      "collectedAt": "2026-11-09T14:27:21+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "官方职位明确列出 VLA、World Model、World Action Model 的预训练、微调与评测，涉及真实机器人及 egocentric 数据。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "企业官网",
+        "url": "https://talent.baidu.com/jobs/detail/SOCIAL/7ed122ba-9b04-44cf-b941-169050c992b2",
+        "author": ""
+      },
+      "note": "未披露薪资。页面职位地址归属 SOCIAL；页头的通用“校园招聘”文字未作为阶段依据。当前可投状态需以招聘方为准。",
+      "insights": [
+        "需要多模态训练经验，理解至少一种相关模型的训练方法。",
+        "工作包含数据评测体系、分布式训练、稳定性与吞吐优化。",
+        "机器人控制、RL / Offline RL、仿真迁移和动作跟踪经验是相关加分项。"
+      ]
+    },
+    {
+      "id": "zju-galbot-5797088F2B835DCAE0653A68DD0E9B18",
+      "title": "银河通用｜2027 届具身领航者校招计划",
+      "company": "银河通用",
+      "team": "",
+      "role": "具身多模态大模型 / 操作算法等",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "校招",
+      "location": "北京 / 深圳 / 苏州",
+      "experienceDate": "",
+      "publishedAt": "2026-07-27 22:24:18",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "面向毕业时间在 2026 年 9 月至 2027 年 12 月之间的应届生，覆盖具身模型、操作和系统方向；薪资面议。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "高校就业网",
+        "url": "https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5797088F2B835DCAE0653A68DD0E9B18",
+        "author": "银河通用（浙江大学就业网发布）"
+      },
+      "note": "这是校招计划，不是单个 VLA 岗位 JD；页面的总体人数不能解读为 VLA 的 HC，亦未生成薪资数字。",
+      "insights": [
+        "官方流程为网申、筛选、部分岗位笔试、面试与 offer。",
+        "页面列出的截止日期为 2027-06-30；具体岗位以招聘官网为准。"
+      ]
+    },
+    {
+      "id": "xhs-6a57727a000000002103dbc0",
+      "title": "世界动作模型（WAM）算法实习生",
+      "company": "未披露",
+      "team": "",
+      "role": "世界动作模型（WAM）算法实习生",
+      "tracks": [
+        "WAM"
+      ],
+      "hiringStage": "实习",
+      "location": "深圳南山区",
+      "experienceDate": "",
+      "publishedAt": "2026-07-15T19:43:54+08:00",
+      "collectedAt": "2026-11-09T13:46:27+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "招聘内容涉及机器人场景重建、动态预测、仿真数据、动作生成与 Sim2Real；要求相关硕士/博士背景。正文写每周 4–5 天、至少 3 个月，配图另写每周 5 天，需联系招聘方确认。",
+      "questions": [],
+      "salary": {
+        "originalText": "薪资范围：400-800/天",
+        "basis": "笔记正文；招聘报价，不是实际 offer",
+        "currency": "未披露",
+        "dailyRate": "400–800／天（招聘区间；币种原文未明确）",
+        "baseMonthly": null,
+        "guaranteedMonths": null,
+        "guaranteedAnnualCash": null,
+        "bonus": "",
+        "signingBonus": "",
+        "equity": "",
+        "totalClaimed": "不适用（日薪报价）",
+        "taxBasis": "未披露",
+        "note": "不按工作日数量折算月薪或年薪；实际薪酬、在招状态待招聘方确认。"
+      },
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/6a57727a000000002103dbc0",
+        "author": "Keno"
+      },
+      "note": "正文及全部 5 张配图已查看。原帖发布时间为 2026 年 7 月，尚未确认岗位当前仍开放；公司名称未披露，不能据地理位置推断公司。岗位要求不计作真实面试题。"
+    },
+    {
+      "id": "pd-italent-agibot-20260624",
+      "title": "智元 2027 优才计划｜WAM 与具身 Agent 招聘方向",
+      "company": "智元机器人",
+      "team": "",
+      "role": "世界模型 / 具身 Agent / 具身算法",
+      "tracks": [
+        "VLA",
+        "Agentic Robotics",
+        "WAM"
+      ],
+      "hiringStage": "校招",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-06-24",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "人才服务平台转载的优才计划将世界动作模型与具身 Agent 列为独立招聘方向；未列薪资数字。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "人才服务平台",
+        "url": "https://www.pd-italent.com/Article/202606/202606250014.shtml",
+        "author": "智元 AGIBOT 招聘公众号（平台转载）"
+      },
+      "note": "已读取转载正文，原公众号链接当前无法打开；没有宣称已核验公众号全文。与已有单岗线索可能重叠，不视为独立 HC。",
+      "insights": [
+        "世界模型方向涉及动作后果预测、物理仿真以及 VLA/WAM。",
+        "Agent 方向涉及长程任务、记忆、技能库、纠错与重新规划。"
+      ]
+    },
+    {
+      "id": "xhs-69e09511000000001b022652",
+      "title": "智元vla 一面面试经验",
+      "company": "智元机器人",
+      "team": "",
+      "role": "VLA 方向；完整岗位名称未披露",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "正式（校招/社招未披露）",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-04-16T15:51:45+08:00",
+      "collectedAt": "2026-11-09T13:39:56+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者记录一面，围绕其 UniVLA 项目追问推理缓存、动作表示、数据链路和真机表现。以下按主题归并正文中的问题，不提供未经核实的答案。",
+      "questions": [
+        {
+          "text": "KV Cache 保存哪些表示？对机器人时序推理有什么影响？",
+          "context": "正文第 1 题；概括"
+        },
+        {
+          "text": "MHA 与 GQA 的缓存布局有何差别？长任务如何控制显存？",
+          "context": "正文第 2、6 题；合并概括"
+        },
+        {
+          "text": "推导 self-attention，并解释缩放因子的作用。",
+          "context": "正文第 4、5 题；合并概括"
+        },
+        {
+          "text": "在作者的 UniVLA 项目中，如何比较直接动作预测与 flow matching，并解释解码器改动？",
+          "context": "正文第 3、11 题；问题中的效果比较不是已证实结论"
+        },
+        {
+          "text": "动作输出的坐标表示与自由度如何定义？左右手的空间信息如何编码？",
+          "context": "正文第 7、12 题；合并概括"
+        },
+        {
+          "text": "多任务训练与单任务适配如何比较？数据从采集到训练如何流转？",
+          "context": "正文第 8、9 题；合并概括"
+        },
+        {
+          "text": "训练规模、硬件与耗时如何？历史观测利用受哪些瓶颈限制？",
+          "context": "正文第 10、14 题；合并概括"
+        },
+        {
+          "text": "如何排查真机动作停顿，并对齐本地评测和官方结果？",
+          "context": "正文第 13、15 题；合并概括"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/69e09511000000001b022652",
+        "author": "Joey"
+      },
+      "note": "作者评论称为正式岗位，并称项目使用过 UniVLA、面试有 LeetCode；具体编程题未披露。仅采纳作者补充，未把其他评论者判断当事实。正文已读；配图未作信息来源。"
+    },
+    {
+      "id": "xhs-69ae8089000000001a01c5e5",
+      "title": "具身VLA实习部分面经总结",
+      "company": "多家具身初创及车企（题目未标公司）",
+      "team": "",
+      "role": "VLA 算法实习",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "实习",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2026-03-09T16:10:49+08:00",
+      "collectedAt": "2026-11-09T14:25:11+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "研一作者自述具备具身模型部署和训练经验，汇总年前年后实习面试的技术问题。混合题单未注明各题所属公司。",
+      "questions": [
+        {
+          "text": "π0 与 π0.5 在架构和代码上有哪些区别？π 系列与 GR00T 的 flow matching 有何差别？",
+          "context": "正文技术清单；按主题归并"
+        },
+        {
+          "text": "解释 LAPA 与 ACT 的训练推理流程。",
+          "context": "正文技术清单；按主题归并"
+        },
+        {
+          "text": "数采方式、开源预训练数据与 RTC 的实现如何选择？",
+          "context": "正文技术清单；按主题归并"
+        },
+        {
+          "text": "自己使用的模型输入输出、夹爪或灵巧手适配以及改进点是什么？",
+          "context": "正文技术清单；按主题归并"
+        },
+        {
+          "text": "如何设计操作任务，长序列任务为何更易失败？",
+          "context": "正文技术清单；按主题归并"
+        },
+        {
+          "text": "解释 Transformer、ViT、自回归生成与模型规模。",
+          "context": "正文技术清单；按主题归并"
+        },
+        {
+          "text": "如何理解世界模型、快慢系统和不同数据来源？",
+          "context": "正文技术清单；按主题归并"
+        },
+        {
+          "text": "编程：用 PyTorch 实现多头注意力，并写出 flow matching 伪代码。",
+          "context": "正文技术清单；按主题归并"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/explore/69ae8089000000001a01c5e5",
+        "author": "波仔最帅"
+      },
+      "note": "仅提取明确写出的题意；原文未给具体 LeetCode 题号，因此未补造。混含车企经历，但没有逐题业务归属，不认定所有题源均为机器人岗位。"
+    },
+    {
+      "id": "nowcoder-9ce6a4286f804b4faa9864639db3bdaa",
+      "title": "星海图｜机器人系统实习一、二面（历史面经）",
+      "company": "星海图",
+      "team": "",
+      "role": "机器人系统工程师",
+      "tracks": [],
+      "hiringStage": "实习",
+      "location": "",
+      "experienceDate": "5 月 26 日一面，两天后二面（原文未明确年份）",
+      "publishedAt": "2025-07-01 16:02",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者记录系统岗位的两轮面试；一面写代码并讨论仿真、机械臂项目，二面侧重模块原理。",
+      "questions": [
+        {
+          "text": "编写括号序列合法性检查。",
+          "context": "作者正文；一面 / 二面信息保持原帖归属"
+        },
+        {
+          "text": "讨论正整数集合凑成给定目标值的组合计数。",
+          "context": "作者正文；一面 / 二面信息保持原帖归属"
+        },
+        {
+          "text": "说明是否独立搭建过强化学习仿真环境，并比较项目中技术组件的作用。",
+          "context": "作者正文；一面 / 二面信息保持原帖归属"
+        },
+        {
+          "text": "解释机械臂项目的坐标变换与工程难点。",
+          "context": "作者正文；一面 / 二面信息保持原帖归属"
+        },
+        {
+          "text": "从输入输出和内部原理两层说明一个机械臂模块。",
+          "context": "作者正文；一面 / 二面信息保持原帖归属"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/feed/main/detail/9ce6a4286f804b4faa9864639db3bdaa",
+        "author": "白熊快跑"
+      },
+      "note": "系统工程岗位，未声明 VLA/WAM 算法方向；标题中的 OC 未披露金额，不生成薪资样本。",
+      "relevance": "adjacent",
+      "interview": {
+        "round": "一面、二面",
+        "format": "一面本地 IDE；二面未写代码"
+      }
+    },
+    {
+      "id": "nowcoder-jd-762626893290950656",
+      "title": "京东｜机器人 VLA 实习招募及报价（2025 历史信息）",
+      "company": "京东",
+      "team": "",
+      "role": "机器人 VLA 算法实习生",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "实习",
+      "location": "北京亦庄",
+      "experienceDate": "",
+      "publishedAt": "2025-06-12 10:47",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "历史实习招募涉及 VLA 训练部署；要求多机多卡、模仿学习及扩散/流匹配经验。",
+      "questions": [],
+      "salary": {
+        "originalText": "实习薪资10000元/月+房补1500元/月+餐补20元/天",
+        "basis": "招聘帖统一 We Offer 栏；并非候选人收到的合同",
+        "currency": "CNY",
+        "baseMonthly": 10000,
+        "guaranteedMonths": null,
+        "note": "另列房补 1,500 元/月、餐补 20 元/天；未与月薪合并或年化。原帖未说明各岗是否存在差异。"
+      },
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/discuss/762626893290950656",
+        "author": "满满要努力（页面标注京东 HR）"
+      },
+      "note": "2025 年历史报价；未确认当前仍有效。本文同时招聘 RL、双目视觉等岗位，没有拆成多份薪资样本。",
+      "insights": [
+        "招募周期为 3–6 个月，帖中转正机会面向 2026 届。"
+      ]
+    },
+    {
+      "id": "nowcoder-4e6c1b0caa6840078f3fa589612f411b",
+      "title": "银河通用｜机器人开发实习二面（历史面经）",
+      "company": "银河通用",
+      "team": "",
+      "role": "机器人开发实习生",
+      "tracks": [],
+      "hiringStage": "实习",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "2025-02-27 19:49",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "追溯到原作者的机器人开发面经，包含视觉抓取、ROS、标定和并发通信。",
+      "questions": [
+        {
+          "text": "高反光或透明物体如何抓取；怎样设计水果抓取系统并评价抓取姿态？",
+          "context": "原作者正文；相关问题合并"
+        },
+        {
+          "text": "如何将深度模型接入 ROS，ROS1/2 及主从通信有何区别？",
+          "context": "原作者正文；相关问题合并"
+        },
+        {
+          "text": "图像传输怎样在 Topic 与 Service 之间选择？",
+          "context": "原作者正文；相关问题合并"
+        },
+        {
+          "text": "说明机械臂手眼标定流程。",
+          "context": "原作者正文；相关问题合并"
+        },
+        {
+          "text": "讨论 Socket 分帧、粘包、高并发与长连接处理。",
+          "context": "原作者正文；相关问题合并"
+        },
+        {
+          "text": "比较互斥锁、原子变量及条件同步机制。",
+          "context": "原作者正文；相关问题合并"
+        },
+        {
+          "text": "介绍 C++ 计算库、调试方式与代表性项目。",
+          "context": "原作者正文；相关问题合并"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/feed/main/detail/4e6c1b0caa6840078f3fa589612f411b",
+        "author": "莱修贤"
+      },
+      "note": "未把转载账号“如愿拥有”的转发另计一次；原帖为机器人开发岗位，不能泛化为 VLA 面经。",
+      "relevance": "adjacent",
+      "interview": {
+        "round": "二面"
+      }
+    },
+    {
+      "id": "nowcoder-939528346956726272",
+      "title": "原力灵机｜2027 秋招大模型算法三轮复盘",
+      "company": "原力灵机",
+      "team": "",
+      "role": "具身智能 / 大模型算法",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "校招",
+      "location": "",
+      "experienceDate": "9 月投递，三轮已完成（作者未写完整日期）",
+      "publishedAt": "10-13 14:30（原页未显示年份）",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者自述完成三轮技术面；本科人工智能、硕士多模态研究背景，重点是项目与论文细节。",
+      "questions": [
+        {
+          "text": "解释项目模型选型、训练数据构造、训练与推理过程。",
+          "context": "作者“主要考察内容”；未按原帖未披露的轮次强行分配"
+        },
+        {
+          "text": "分析项目失败案例及下一步改进方案。",
+          "context": "作者“主要考察内容”；未按原帖未披露的轮次强行分配"
+        },
+        {
+          "text": "说明论文动机、方法取舍及相对已有工作的局限。",
+          "context": "作者“主要考察内容”；未按原帖未披露的轮次强行分配"
+        },
+        {
+          "text": "讨论观测与动作表示、动作分块以及自回归和扩散策略。",
+          "context": "作者“主要考察内容”；未按原帖未披露的轮次强行分配"
+        },
+        {
+          "text": "比较 VLM 与 VLA，说明真机部署会遇到的问题。",
+          "context": "作者“主要考察内容”；未按原帖未披露的轮次强行分配"
+        },
+        {
+          "text": "解释行为克隆、分布偏移，以及 IL/RL、离线/在线学习的区别。",
+          "context": "作者“主要考察内容”；未按原帖未披露的轮次强行分配"
+        },
+        {
+          "text": "解释机器人操作中采用模仿学习的原因。",
+          "context": "作者“主要考察内容”；未按原帖未披露的轮次强行分配"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/discuss/939528346956726272",
+        "author": "不知豆啊"
+      },
+      "note": "作者称有 coding，但未给出具体原题；Hot 100、Python/PyTorch 和 C++ 部分是备考建议，未作为实问题目。后续 OC 帖属于同一候选人，不另增样本。",
+      "interview": {
+        "round": "三轮技术面",
+        "format": "项目与论文深挖；含手写代码"
+      }
+    },
+    {
+      "id": "nowcoder-0bf23431c64b495ea22deefc575c1034",
+      "title": "智元机器人前端一面｜Agent 应用工程相关",
+      "company": "智元机器人",
+      "team": "",
+      "role": "前端 / Agent 应用（相邻工程岗位）",
+      "tracks": [
+        "Agentic Robotics"
+      ],
+      "hiringStage": "实习",
+      "location": "",
+      "experienceDate": "08-21（作者回忆；年份未核）",
+      "publishedAt": "09-03 15:09（年份未核）",
+      "collectedAt": "2026-11-09T14:22:13+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "前端实习面试包含 Agent 架构、记忆、工具协议和执行预算，同时考查流式界面实现。并非机器人控制算法面经。",
+      "questions": [
+        {
+          "text": "怎样区分 Agent 的模型层与 Harness 层？",
+          "context": "牛客原帖正文；选取并归并相关题意"
+        },
+        {
+          "text": "工具如何定义输入、返回值和异常？",
+          "context": "牛客原帖正文；选取并归并相关题意"
+        },
+        {
+          "text": "长短期记忆如何分工，ReAct 与 Plan-and-Execute 如何选择？",
+          "context": "牛客原帖正文；选取并归并相关题意"
+        },
+        {
+          "text": "怎样观察执行循环、识别卡住，并约束工具调用和 token 预算？",
+          "context": "牛客原帖正文；选取并归并相关题意"
+        },
+        {
+          "text": "SSE 流式输出、未闭合 Markdown 和渲染性能怎样处理？",
+          "context": "牛客原帖正文；选取并归并相关题意"
+        },
+        {
+          "text": "编程：以 O(n) 时间求最长连续序列。",
+          "context": "牛客原帖正文；选取并归并相关题意"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/feed/main/detail/0bf23431c64b495ea22deefc575c1034",
+        "author": "明月缺清风"
+      },
+      "note": "未把前端题计为机器人策略题；发布日期仅显示月日。",
+      "relevance": "adjacent",
+      "interview": {
+        "round": "一面"
+      }
+    },
+    {
+      "id": "nowcoder-0710cc2eecc9444299dc38be78de3f76",
+      "title": "千寻智能 平台开发 一面",
+      "company": "千寻智能",
+      "team": "",
+      "role": "Agent / 平台开发（相邻工程岗位）",
+      "tracks": [
+        "Agentic Robotics"
+      ],
+      "hiringStage": "社招",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "08-26 23:08（编辑；年份未核）",
+      "collectedAt": "2026-11-09T14:15:13+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "一面涉及 Agent 工作流约束、平台选型与代码质量，也考查 Go 并发基础和岛屿数量编程。",
+      "questions": [
+        {
+          "text": "MCP 与 Skill 如何分工？怎样检查 Agent 遵循流程，以及允许偏离的边界？",
+          "context": "牛客原帖正文；题意归并"
+        },
+        {
+          "text": "如何选择底层模型与平台框架，并测试 AI 工作流生成的代码？",
+          "context": "牛客原帖正文；题意归并"
+        },
+        {
+          "text": "线程、协程和 Go 调度有何差异？怎样限制并发并解释 defer 顺序？",
+          "context": "牛客原帖正文；题意归并"
+        },
+        {
+          "text": "编程：统计二维网格中的岛屿数量。",
+          "context": "牛客原帖正文；题意归并"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/feed/main/detail/0710cc2eecc9444299dc38be78de3f76",
+        "author": "赛文X"
+      },
+      "note": "正文已读取；网页仅显示月日及编辑时间，未独立核定年份。属于具身公司的平台开发岗位，不能当作机器人策略算法岗题单。",
+      "interview": {
+        "round": "一面",
+        "candidateProcess": "nowcoder-赛文X-千寻-2026待核"
+      },
+      "relevance": "adjacent"
+    },
+    {
+      "id": "nowcoder-1d05dbe48b314a81804c2ffdd51ab569",
+      "title": "自变量 Agent 平台开发一面",
+      "company": "自变量",
+      "team": "",
+      "role": "Agent 平台开发（相邻工程岗位）",
+      "tracks": [
+        "Agentic Robotics"
+      ],
+      "hiringStage": "社招",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "08-26 23:03（编辑；年份未核）",
+      "collectedAt": "2026-11-09T14:15:13+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者记录围绕项目落地、Agent 效率与大规模文档检索的追问；编程题为令牌桶。",
+      "questions": [
+        {
+          "text": "无人带教时，如何独立把项目交付落地并证明相关能力？",
+          "context": "牛客原帖正文；题意归并"
+        },
+        {
+          "text": "多 Agent 如何协作并避免交接时丢失上下文？",
+          "context": "牛客原帖正文；题意归并"
+        },
+        {
+          "text": "文档规模增长时，如何改进 RAG 的召回与处理效率？",
+          "context": "牛客原帖正文；题意归并"
+        },
+        {
+          "text": "如何保存 Agent 错误状态并设计重试？实现令牌桶限流。",
+          "context": "牛客原帖正文；题意归并"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/feed/main/detail/1d05dbe48b314a81804c2ffdd51ab569",
+        "author": "赛文X"
+      },
+      "note": "正文已读取；网页仅显示月日及编辑时间，未独立核定年份。属于具身公司的平台开发岗位，不能当作机器人策略算法岗题单。",
+      "relevance": "adjacent"
+    },
+    {
+      "id": "maimai-1918963156",
+      "title": "深圳未具名企业｜VLA / WAM 机器人操作招聘",
+      "company": "未具名企业（猎头发布）",
+      "team": "",
+      "role": "具身智能算法工程师 · 机器人操作",
+      "tracks": [
+        "VLA",
+        "WAM"
+      ],
+      "hiringStage": "未披露",
+      "location": "深圳",
+      "experienceDate": "",
+      "publishedAt": "07-01（原页未显示年份）",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "猎头发布人形及移动双臂操作岗位，涉及模型训练、部署和 UMI 数据；雇主名称未公开。",
+      "questions": [],
+      "salary": {
+        "originalText": "薪资：100-200 万",
+        "basis": "猎头招聘帖正文",
+        "totalClaimed": "100–200 万；时间周期及币种未明确",
+        "note": "不得直接解释为保证年薪；月薪、薪数、现金与激励拆分均未披露。"
+      },
+      "source": {
+        "platform": "脉脉",
+        "url": "https://maimai.cn/article/detail?efid=yt_ZBJY3Z2oylm9ZMJob_g&fid=1918963156",
+        "author": "Ilan（页面自述资深猎头顾问）"
+      },
+      "note": "招聘报价，不是候选人 offer；岗位是否仍开放需向发布方核实。",
+      "insights": [
+        "要求硕士及以上，有机器人操作模型训练和部署经验。",
+        "关注 VLA/WAM、Diffusion Policy、OpenVLA、π0 及真机强化学习。"
+      ]
+    },
+    {
+      "id": "maimai-1917912834",
+      "title": "北京未具名企业｜VLA 与机器人数据算法招聘",
+      "company": "未具名企业（猎头发布）",
+      "team": "",
+      "role": "VLA 算法 / 数据算法",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "未披露",
+      "location": "北京",
+      "experienceDate": "",
+      "publishedAt": "06-22（原页未显示年份）",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "同一招聘帖含模型与数据两个方向；没有提供可量化薪资。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "脉脉",
+        "url": "https://maimai.cn/article/detail?efid=akC8WZ00qfT3dEJU5Xvocw&fid=1917912834",
+        "author": "陈金秀（页面自述猎头高级顾问）"
+      },
+      "note": "“薪资行业顶配”属于宣传用语，未转换为数字；两个方向不拆成两份独立薪资样本。",
+      "insights": [
+        "模型方向涉及预训练、SFT/RL 与仿真到真机迁移。",
+        "数据方向涉及视觉、文本、动作数据清洗、自动标注和质量评估。"
+      ]
+    },
+    {
+      "id": "nowcoder-df1389e2e6ea4e75b685596258a1623f",
+      "title": "朗新科技｜机器人算法应用实习口头 offer",
+      "company": "朗新科技",
+      "team": "",
+      "role": "机器人算法应用实习（任务分配待定）",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "实习",
+      "location": "武汉",
+      "experienceDate": "",
+      "publishedAt": "06-17 01:27（原页未显示年份）",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者自述获得口头 offer，月薪 6,000 元；沟通内容包含机器人、VLA 及通用大模型应用，具体任务仍待确定。",
+      "questions": [],
+      "salary": {
+        "originalText": "月薪6k",
+        "basis": "作者正文描述朗新科技口头 offer 的段落",
+        "currency": "CNY",
+        "baseMonthly": 6000,
+        "guaranteedMonths": null,
+        "note": "实习口头报价；尚无书面条款，不能年化。岗位技术范围宽泛，不能等同纯 VLA 研究岗。"
+      },
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/feed/main/detail/df1389e2e6ea4e75b685596258a1623f",
+        "author": "牛客158488767号"
+      },
+      "note": "同帖阳光数科的 200 元/天属于另一份通用 Agent 实习，不计入机器人薪资。没有从评论补造面经。"
+    },
+    {
+      "id": "nowcoder-1b31284d8c12406f85e59db115728d56",
+      "title": "智元｜Agent 一面：上下文、工具循环与任务重规划",
+      "company": "智元机器人",
+      "team": "",
+      "role": "Agent 岗位（未披露机器人策略职责）",
+      "tracks": [
+        "Agentic Robotics"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "03-28 11:30（原页未显示年份）",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者回顾 Agent 项目的工程问答；原文未说明是否承担机器人控制或具身策略工作。",
+      "questions": [
+        {
+          "text": "项目的 ReAct 记忆支持多少对话轮次？",
+          "context": "作者正文 Q1–Q7；题意概括"
+        },
+        {
+          "text": "连续调用工具耗尽上下文时，如何管理和压缩内容？",
+          "context": "作者正文 Q1–Q7；题意概括"
+        },
+        {
+          "text": "如何发现并停止 Agent 的无效重复检索？",
+          "context": "作者正文 Q1–Q7；题意概括"
+        },
+        {
+          "text": "解释 MCP 工具的覆盖范围及是否扩展互联网检索的取舍。",
+          "context": "作者正文 Q1–Q7；题意概括"
+        },
+        {
+          "text": "讨论代码助手的文件检索方式，以及对 OpenClaw 实现的了解。",
+          "context": "作者正文 Q1–Q7；题意概括"
+        },
+        {
+          "text": "说明 Plan–Execute–RePlan 功能的具体流程。",
+          "context": "作者正文 Q1–Q7；题意概括"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/feed/main/detail/1b31284d8c12406f85e59db115728d56",
+        "author": "buzz_89"
+      },
+      "note": "作为相邻 Agent 工程参考；不能据公司名称推断这是机器人策略算法面。原文提及的模型窗口数字未作为产品事实引用。",
+      "relevance": "adjacent",
+      "interview": {
+        "round": "一面"
+      }
+    },
+    {
+      "id": "nowcoder-7b8f541c9bef4733a0f738d0628b1f65",
+      "title": "未披露公司｜VLA 面经：架构、数据与实时执行",
+      "company": "未披露",
+      "team": "",
+      "role": "VLA 相关岗位（完整岗位未披露）",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "03-17 12:22（原页未显示年份）",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "作者以面经形式列出 VLA 问题，覆盖模型、采集与执行；未说明公司、轮次和招聘阶段。",
+      "questions": [
+        {
+          "text": "说明 VLA 的输入输出、组成模块及相对传统控制的用途。",
+          "context": "作者正文；合并相近题意，不含答案"
+        },
+        {
+          "text": "解释遥操作采集机制，并讨论微调所需数据规模。",
+          "context": "作者正文；合并相近题意，不含答案"
+        },
+        {
+          "text": "比较动作头设计与动作分块；说明如何衔接低层控制。",
+          "context": "作者正文；合并相近题意，不含答案"
+        },
+        {
+          "text": "讨论作者列举的 π 系列版本差异与 RTC 机制。",
+          "context": "作者正文；合并相近题意，不含答案"
+        },
+        {
+          "text": "解释 Flow Matching，并说明强化学习在 VLA 中的作用。",
+          "context": "作者正文；合并相近题意，不含答案"
+        },
+        {
+          "text": "介绍 VLA 的主要研究分支。",
+          "context": "作者正文；合并相近题意，不含答案"
+        },
+        {
+          "text": "策略只能约 3 Hz 推理、控制要求约 50 Hz 时，如何协调执行？",
+          "context": "作者正文；合并相近题意，不含答案"
+        },
+        {
+          "text": "如何诊断并改善机械臂执行预测动作时的抖动？",
+          "context": "作者正文；合并相近题意，不含答案"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/feed/main/detail/7b8f541c9bef4733a0f738d0628b1f65",
+        "author": "快递一到就拆忍不住星人"
+      },
+      "note": "仅能确认作者发布了这份题单；公司和实际面试过程未披露，不用于企业面试频率统计。原帖模型版本拼写未作事实校正。"
+    },
+    {
+      "id": "nowcoder-0f6cc57190264448bf1647dc36de4622",
+      "title": "星海图大模型后训练一面（实习）",
+      "company": "星海图",
+      "team": "",
+      "role": "大模型后训练（相邻训练工程岗位）",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "实习",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "02-10 19:30（年份未核）",
+      "collectedAt": "2026-11-09T14:22:13+08:00",
+      "verification": "original-read",
+      "evidenceType": "experience",
+      "summary": "题目集中于分布式训练、数据加载与模型基础；原帖没有明确说明岗位训练的就是 VLA。",
+      "questions": [
+        {
+          "text": "ZeRO 各阶段与 DDP 的显存占用怎样比较，CPU offload 有何代价？",
+          "context": "牛客原帖正文；题意概括"
+        },
+        {
+          "text": "bf16 与 fp16 的数值特性有何差异？",
+          "context": "牛客原帖正文；题意概括"
+        },
+        {
+          "text": "训练中途恢复 checkpoint 时，如何恢复 DataLoader 与 sampler 状态？",
+          "context": "牛客原帖正文；题意概括"
+        },
+        {
+          "text": "shuffle 属于哪一层，DistributedSampler 怎样切分样本？",
+          "context": "牛客原帖正文；题意概括"
+        },
+        {
+          "text": "解释 GQA、RMSNorm 与 LayerNorm，以及 tokenization 的流水线位置。",
+          "context": "牛客原帖正文；题意概括"
+        },
+        {
+          "text": "编程：计算图中的连通分量（省份数量）。",
+          "context": "牛客原帖正文；题意概括"
+        }
+      ],
+      "salary": null,
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/feed/main/detail/0f6cc57190264448bf1647dc36de4622",
+        "author": "bug杀手锏"
+      },
+      "note": "属于具身公司的训练工程参考，不能据此声称面试考了 VLA 或 WAM。",
+      "relevance": "adjacent",
+      "interview": {
+        "round": "一面",
+        "durationMinutes": 60
+      }
+    },
+    {
+      "id": "linkedin-4467313299",
+      "title": "甬江实验室｜具身智能世界模型算法工程师",
+      "company": "甬江实验室",
+      "team": "",
+      "role": "世界模型 / WAM 研发",
+      "tracks": [
+        "WAM"
+      ],
+      "hiringStage": "社招",
+      "location": "深圳",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:15:13+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "中高级全职岗位，关注 WAM 架构、大规模训练、灵巧手真机闭环和多模态时序数据质量。页面当前标记已停止接受申请，保留为岗位与报价参考。",
+      "questions": [],
+      "salary": {
+        "originalText": "¥40,000.00/月 - ¥45,000.00/月",
+        "basis": "LinkedIn 职位页基本薪酬范围",
+        "currency": "CNY",
+        "monthlyRange": "40,000–45,000 CNY／月（招聘范围）",
+        "baseMonthly": null,
+        "guaranteedMonths": null,
+        "guaranteedAnnualCash": null,
+        "taxBasis": "未披露",
+        "totalClaimed": "未披露",
+        "note": "薪数、奖金、签字费和股权未披露；页面已停止接受申请。"
+      },
+      "source": {
+        "platform": "LinkedIn",
+        "url": "https://cn.linkedin.com/jobs/view/具身智能世界模型算法工程师-at-yongjiang-laboratory-4467313299",
+        "author": ""
+      },
+      "note": "页面相对发布时间为“1个月前”，未换算成精确日期。此来源注明来自猎聘，后续如找到同岗位不重复计数。"
+    },
+    {
+      "id": "linkedin-4477665279",
+      "title": "自变量｜Robotics Reinforcement Learning Engineer",
+      "company": "自变量 X Square Robot",
+      "team": "",
+      "role": "机器人强化学习；与 VLA 集成",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "正式（年限不限）",
+      "location": "深圳",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:22:13+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "工作涉及机械臂、灵巧手及全身移动操作，结合 RL 与 ACT、Diffusion Policy、OpenVLA、π0，并关注真机反馈、仿真迁移和部署。",
+      "questions": [],
+      "salary": {
+        "originalText": "¥40,000.00/月 - ¥100,000.00/月",
+        "basis": "LinkedIn 职位页基本薪酬范围",
+        "currency": "CNY",
+        "monthlyRange": "40,000–100,000 CNY／月（招聘范围）",
+        "baseMonthly": null,
+        "guaranteedMonths": null,
+        "guaranteedAnnualCash": null,
+        "taxBasis": "未披露",
+        "note": "未披露薪数与保证奖金，不能推导个人 offer 或保证年薪。"
+      },
+      "source": {
+        "platform": "LinkedIn",
+        "url": "https://cn.linkedin.com/jobs/view/robotics-reinforcement-learning-engineer-at-x-square-robot-自变量机器人-4477665279",
+        "author": ""
+      },
+      "note": "页面相对发布时间为“3周前”，未反推精确日期；职位存在不等于确认当前仍有相同名额。",
+      "insights": [
+        "要求机器人或相关专业硕士/博士背景，以及强化学习与机器人系统实践。",
+        "岗位同时涉及模仿学习、真实交互反馈与策略部署；需核实具体团队负责的本体和任务。"
+      ]
+    },
+    {
+      "id": "shixiseng-inn_jlzedwaahwkw",
+      "title": "科大讯飞｜具身 Agent 助理算法实习（已下线）",
+      "company": "科大讯飞",
+      "team": "",
+      "role": "具身 Agent 助理算法工程师",
+      "tracks": [
+        "Agentic Robotics"
+      ],
+      "hiringStage": "实习",
+      "location": "合肥",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "历史招聘页仍可读取：研究机器人规划、记忆、纠错与闭环学习；页面明确显示职位已下线。",
+      "questions": [],
+      "salary": {
+        "originalText": "100-150/天",
+        "basis": "职位页顶部报价",
+        "currency": "CNY",
+        "dailyRate": "100–150 元/天",
+        "note": "历史招聘报价；不能当作当前在招条件，也未按假定出勤天数换算月薪。"
+      },
+      "source": {
+        "platform": "实习僧",
+        "url": "https://www.shixiseng.com/intern/inn_jlzedwaahwkw",
+        "author": "科大讯飞招聘页"
+      },
+      "note": "页面截止日期为 2026-09-13，刷新时间为 2026-09-14；刷新时间不等于发布或重新开放时间。顶部学历“不限”与正文要求不一致，保留正文要求并提示该差异。",
+      "insights": [
+        "正文要求硕士及以上；每周 5 天，实习 3 个月。",
+        "涉及 Harness、CoT/ReAct、LLM/VLM 微调、ROS/ROS2 与 Isaac Sim。"
+      ]
+    },
+    {
+      "id": "nowcoder-job-451538",
+      "title": "千寻智能｜2027 校招实习：VLA / WAM 预训练",
+      "company": "千寻智能",
+      "team": "",
+      "role": "预训练算法工程师",
+      "tracks": [
+        "VLA",
+        "WAM"
+      ],
+      "hiringStage": "实习",
+      "location": "北京",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "面向 2027 届硕士及以上，研究机器人基础模型预训练、数据规模规律和下游迁移；薪资面议。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/jobs/detail/451538",
+        "author": "李先生（页面标注千寻校招经理）"
+      },
+      "note": "“可转正”不是保证录用；原页面未给出发布日期或金额。",
+      "insights": [
+        "岗位明确包含 VLA、WAM 与 Unified Model。",
+        "关注分布式训练、FSDP/DeepSpeed、论文复现及大规模数据经验。",
+        "实习在北京；通过转正后可发北京或杭州校招 offer。"
+      ]
+    },
+    {
+      "id": "spirit-ai-career-pretraining",
+      "title": "千寻智能官网｜具身预训练及训练部署工程岗位",
+      "company": "千寻智能",
+      "team": "",
+      "role": "预训练 / 推理部署 / 机器学习系统",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "官网同时列出模型研究和系统岗位，能用于区分算法研究与训练、部署工程的职责。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "企业官网",
+        "url": "https://www.spirit-ai.com/career",
+        "author": "千寻智能 Spirit AI"
+      },
+      "note": "一个官网来源合并展示相关岗位；未披露城市、金额或完整任职条件。与 2027 校招实习帖是不同招聘页面，不累加为候选人数。",
+      "insights": [
+        "预训练方向研究视觉、语言、动作表征及机器人下游迁移。",
+        "部署方向关注推理引擎、量化、自定义算子与性能验证。",
+        "系统方向覆盖 VLA 训练推理、数据采集、仿真与物理部署工具链。"
+      ]
+    },
+    {
+      "id": "zhaopin-CCL1523215890J40963862315",
+      "title": "美梦空间 Memo｜WAM 世界模型开发工程师",
+      "company": "杭州美梦空间科技有限公司",
+      "team": "",
+      "role": "世界模型开发工程师（具身智能）",
+      "tracks": [
+        "WAM"
+      ],
+      "hiringStage": "未披露",
+      "location": "杭州",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "JD 明确面向世界动作模型和机器人策略，包含模型训练、仿真评测及真机部署。",
+      "questions": [],
+      "salary": {
+        "originalText": "30-60K・14薪；配备期权激励",
+        "basis": "职位描述“薪资范围”及“奖金绩效”",
+        "currency": "CNY",
+        "monthlyRange": "30–60k / 月 · 标称 14 薪",
+        "equity": "招聘文案提及期权，额度及条款未披露",
+        "note": "招聘区间；14 薪是否全部保证未披露，不计算保证年现金。"
+      },
+      "source": {
+        "platform": "智联招聘",
+        "url": "https://www.zhaopin.com/jobdetail/CCL1523215890J40963862315.htm",
+        "author": "杭州美梦空间科技有限公司招聘页"
+      },
+      "note": "页面顶部金额被隐藏，数值取自公开可读 JD 正文。期权不计为现金；未向招聘方发送消息或投递。",
+      "insights": [
+        "硕士及以上、经验不限；要求完整训练、消融和评测经历。",
+        "关注 Diffusion/Flow Matching、物理条件动作建模、RoboTwin/LIBERO 与端侧推理。"
+      ]
+    },
+    {
+      "id": "bonjour-2e84841e-ce3d-4f4d-81bd-5ae1b3ff0a47",
+      "title": "流形空间 Manifold AI｜世界模型算法（支持校招）",
+      "company": "流形空间 Manifold AI",
+      "team": "",
+      "role": "世界模型算法工程师",
+      "tracks": [
+        "WAM"
+      ],
+      "hiringStage": "校招",
+      "location": "北京 / 上海 / 深圳",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "original-read",
+      "evidenceType": "recruitment",
+      "summary": "平台招聘页面向机器人感知、状态预测、决策与端到端操作；标题注明支持校招。",
+      "questions": [],
+      "salary": {
+        "originalText": "¥35k – ¥65k/月 · 15薪",
+        "basis": "具体职位页顶部",
+        "currency": "CNY",
+        "monthlyRange": "35–65k / 月 · 标称 15 薪",
+        "note": "招聘报价；未披露薪数保证条件或奖金拆分，不推算保证年现金。"
+      },
+      "source": {
+        "platform": "Bonjour 找工地图",
+        "url": "https://bonjour.bio/jobs-mapping/jobs/2e84841e-ce3d-4f4d-81bd-5ae1b3ff0a47",
+        "author": "Manifold AI 招聘页（平台展示）"
+      },
+      "note": "平台同时出现“实习 / Junior”和“全职”标签，用工形式需确认。相对时间“3个月前”未转换为精确发布日期。相似社招页不另计一份。",
+      "insights": [
+        "要求多模态时序表征、生成模型、大规模训练及机器人学习经验。",
+        "涉及真机强化学习与 Sim2Real；团队介绍明确采用 WAM 路线。"
+      ]
+    },
+    {
+      "id": "xhs-6980216c000000000a030e49",
+      "title": "VLA / WM / EAI 研究实习面经（字节、小米）",
+      "company": "字节跳动 / 小米（索引标题，待核实）",
+      "team": "",
+      "role": "研究实习（具体岗位待核实）",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "实习",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T13:24:55+08:00",
+      "verification": "lead",
+      "evidenceType": "unknown",
+      "summary": "公开索引列出的 VLA / 世界模型研究实习线索；需读取原文后分别确认公司、岗位与问题归属。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://www.xiaohongshu.com/discovery/item/6980216c000000000a030e49",
+        "author": "",
+        "indexUrl": "https://damodev.csdn.net/6a466468662f9a54cb885011.html"
+      },
+      "note": "标题中的 WM 尚不足以确认是 WAM 岗位。"
+    },
+    {
+      "id": "xhs-69fd584c000000003503a838",
+      "title": "荣耀机器人一面（世界模型 / 3DGS / VLA 场景）",
+      "company": "荣耀（索引标注，待核实）",
+      "team": "",
+      "role": "机器人方向（完整岗位待核实）",
+      "tracks": [
+        "VLA"
+      ],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T13:24:55+08:00",
+      "verification": "lead",
+      "evidenceType": "unknown",
+      "summary": "公开面经索引中的机器人岗位线索，涉及世界模型与 VLA；原文问题与招聘阶段待核实。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "小红书",
+        "url": "https://xhslink.com/o/3WKNOQoZuOA",
+        "author": "",
+        "indexUrl": "https://damodev.csdn.net/6a466468662f9a54cb885011.html"
+      },
+      "note": "尚未确认是否属于世界动作模型岗位，不计入 WAM 面经样本。"
+    },
+    {
+      "id": "agibot-7651941340528134441",
+      "title": "智元｜优才-具身 Agent 算法工程师-通用业务部",
+      "company": "智元机器人",
+      "team": "",
+      "role": "岗位线索",
+      "tracks": [
+        "Agentic Robotics"
+      ],
+      "hiringStage": "校招",
+      "location": "上海",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:27:21+08:00",
+      "verification": "preview-only",
+      "evidenceType": "recruitment",
+      "summary": "官方职位搜索摘要涉及分层规划、失败恢复、机器人记忆与真实部署；原站当前未返回可读取正文。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "企业官网",
+        "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/m/position/7651941340528134441/detail",
+        "author": ""
+      },
+      "note": "仅搜索摘要，未计入已读原文或正式招聘记录；不据此判断当前是否开放。"
+    },
+    {
+      "id": "agibot-7661986870741879046",
+      "title": "智元｜具身大模型 AI 算法工程师",
+      "company": "智元机器人",
+      "team": "",
+      "role": "岗位线索",
+      "tracks": [
+        "VLA",
+        "Agentic Robotics"
+      ],
+      "hiringStage": "校招",
+      "location": "上海 / 北京",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:27:21+08:00",
+      "verification": "preview-only",
+      "evidenceType": "recruitment",
+      "summary": "官方搜索摘要涉及多模态 Agent、端云协同与 VLA/WAM 训练推理。WAM 含义未从正文核实，暂不归入 World Action Model。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "企业官网",
+        "url": "https://agirobot.jobs.feishu.cn/campusrecruitment/m/position/7661986870741879046/detail",
+        "author": ""
+      },
+      "note": "仅搜索摘要，未计入已读原文或正式招聘记录；不据此判断当前是否开放。"
+    },
+    {
+      "id": "jiyi-campus-wam",
+      "title": "吉翼具身｜机器人世界模型 / WAM 岗位线索",
+      "company": "吉林省吉翼具身智能机器人有限公司",
+      "team": "",
+      "role": "岗位线索",
+      "tracks": [
+        "WAM"
+      ],
+      "hiringStage": "校招",
+      "location": "未核实",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:27:21+08:00",
+      "verification": "preview-only",
+      "evidenceType": "recruitment",
+      "summary": "官方校园职位列表的搜索摘要明确出现 World Action Model、latent dynamics 与动作条件预测；尚未取得独立职位页及正文。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "企业官网",
+        "url": "https://jiyijushen.zhiye.com/campus/jobs",
+        "author": ""
+      },
+      "note": "仅搜索摘要，未计入已读原文或正式招聘记录；不据此判断当前是否开放。"
+    },
+    {
+      "id": "physis-careers-robotics",
+      "title": "逆矩阵 Physis｜具身世界模型与机器人学习岗位线索",
+      "company": "逆矩阵 Physis",
+      "team": "",
+      "role": "岗位线索",
+      "tracks": [
+        "WAM"
+      ],
+      "hiringStage": "校招",
+      "location": "未核实",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:27:21+08:00",
+      "verification": "preview-only",
+      "evidenceType": "recruitment",
+      "summary": "企业职业页搜索摘要列出具身世界模型与机器人学习岗位；网页正文由脚本加载，当前只读到页面标题，具体要求待核。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "企业官网",
+        "url": "https://physis-ai.com/careers",
+        "author": ""
+      },
+      "note": "仅搜索摘要，未计入已读原文或正式招聘记录；不据此判断当前是否开放。"
+    },
+    {
+      "id": "mininglamp-J16336-preview",
+      "title": "明略科技｜具身 Agent 校招 J16336（待读原文）",
+      "company": "明略科技",
+      "team": "",
+      "role": "具身 Agent 算法工程师",
+      "tracks": [
+        "Agentic Robotics"
+      ],
+      "hiringStage": "校招",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "preview-only",
+      "evidenceType": "recruitment",
+      "summary": "公开索引显示连接大模型与机器人真机的 Agent/Harness 岗位；职责和当前状态仍待详情页核实。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "企业官网",
+        "url": "https://mininglamp.zhiye.com/campus/jobs",
+        "author": "明略科技招聘官网（搜索预览）"
+      },
+      "note": "已尝试官网读取，但未获得正文；未将搜索摘要算作已核验 JD 或面经。"
+    },
+    {
+      "id": "nowcoder-fe79ba8a8d36464c96261292dcadccc4-preview",
+      "title": "千寻智能｜多模态算法日常实习面经（待读原文）",
+      "company": "千寻智能",
+      "team": "",
+      "role": "多模态算法实习（具体方向待核实）",
+      "tracks": [],
+      "hiringStage": "实习",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "preview-only",
+      "evidenceType": "experience",
+      "summary": "索引提到 Qwen-VL、视觉表征和训练经历；未取得原帖完整正文。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "牛客",
+        "url": "https://www.nowcoder.com/feed/main/detail/fe79ba8a8d36464c96261292dcadccc4",
+        "author": ""
+      },
+      "note": "暂未确认 VLA 策略职责；不提取正式面经问题，也不计面经样本。",
+      "relevance": "adjacent"
+    },
+    {
+      "id": "bilibili-BV1po8JehEbr-preview",
+      "title": "ACT 算法原理与面试经验视频（待核验）",
+      "company": "",
+      "team": "",
+      "role": "机器人模仿学习相关",
+      "tracks": [],
+      "hiringStage": "未披露",
+      "location": "",
+      "experienceDate": "",
+      "publishedAt": "",
+      "collectedAt": "2026-11-09T14:49:52+08:00",
+      "verification": "preview-only",
+      "evidenceType": "unknown",
+      "summary": "发现 ACT 教学系列中的面试经验视频，尚未核验音频、字幕及其是否为个人实际面试。",
+      "questions": [],
+      "salary": null,
+      "source": {
+        "platform": "B站",
+        "url": "https://www.bilibili.com/video/BV1po8JehEbr/",
+        "author": "Xbotics社区-木木（搜索预览）"
+      },
+      "note": "索引显示发布于 2024-07-18；只保留学习与核查入口，不将教程标题转成公司真题。",
+      "relevance": "adjacent"
+    }
+  ]
+}

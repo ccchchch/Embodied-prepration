@@ -1,0 +1,19 @@
+name: 使用问题
+description: 报告页面、筛选、练习或备份功能的问题
+title: "[问题] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 页面链接
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重现步骤、预期结果和实际结果
+      description: 请勿上传包含个人笔记的完整备份。
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器与设备
