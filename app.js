@@ -1,10 +1,13 @@
 import {COMPANIES,QUESTIONS,ROADMAPS,SOURCE_ATTACHMENTS} from './data.js';
-import {renderCareer,careerRecord,setCareerFilters,careerFilters} from './career.js';
+import {renderCareer,careerRecord,setCareerFilters,careerFilters,loadCareerRecords} from './career.js';
 import {community,setupCommunity,renderCommunity,openContribution,reviewedNotes} from './community.js';
 import {readRoute,routeHash,shareURL} from './routes.js';
 import {addCareerQuestions} from './career-practice.js';
 import {defaultGoal,validateGoal,planOverview} from './preparation-core.js';
 import {renderPreparation,renderPracticeReport,resumeBanner} from './preparation.js';
+import {renderJobMatch} from './job-match.js';
+import {validateJobProfile} from './job-match-core.js';
+import {materializeJobQuestions} from './job-candidates.js';
 import {STORAGE_KEY,TRACKS,TOPICS,LEVELS,escapeHTML as esc,safeURL,freshState,isDue,assess,filterQuestions,validateBackup,validateCustom,mergeBackup} from './core.js';
 
 const BASE_QUESTIONS=[...QUESTIONS,...community.questions];
@@ -15,7 +18,7 @@ document.querySelectorAll('[data-icon]').forEach(el=>el.innerHTML=icon(el.datase
 let state=freshState(),storageOK=true;
 try { const raw=localStorage.getItem(STORAGE_KEY);if(raw)state=validateBackup(JSON.parse(raw),BASE_QUESTIONS.map(q=>q.id)); } catch {storageOK=false;}
 let view='bank',query='',session=null,revealed=false,editingID=null,toastTimer;
-let selectedID='',routeError='';
+let selectedID='',routeError='',disposeJob=null;
 let companyRegion='domestic',companyTrack='all',companyQuery='';
 const all=()=>[...BASE_QUESTIONS,...state.customQuestions];
 const byID=id=>all().find(q=>q.id===id);
@@ -33,13 +36,17 @@ function save(){
 function setRecord(id,patch){state.records[id]={...record(id),...patch};return save();}
 function counts(){const questions=all();return {total:questions.length,mastered:questions.filter(q=>record(q.id).level==='mastered').length,due:questions.filter(q=>isDue(record(q.id))).length,saved:questions.filter(q=>record(q.id).saved).length,done:questions.filter(q=>record(q.id).level).length};}
 function updateNavigation(){const c=counts();$('#all-count').textContent=c.total;$('#review-count').textContent=c.due;$('#saved-count').textContent=c.saved;document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));$('#company-options').innerHTML=companyOptions().map(id=>`<option value="${esc(companyName(id))}">`).join('');}
-const viewNames={bank:'题库广场',review:'待复习',saved:'我的收藏',companies:'目标公司',roadmap:'学习路线',career:'求职情报',community:'社区共建',plan:'备考计划'};
+const viewNames={bank:'题库广场',review:'待复习',saved:'我的收藏',companies:'目标公司',roadmap:'学习路线',career:'求职情报',community:'社区共建',plan:'备考计划',job:'岗位匹配'};
 function navigate(next){view=next;selectedID='';routeError='';session=null;revealed=false;writeLocation(routeHash(view,'',view==='bank'||view==='review'||view==='saved'?{...state.prefs,query}:{}));render();window.scrollTo(0,0);}
 function render(){
+  disposeJob?.();disposeJob=null;
   updateNavigation();$('#breadcrumb').innerHTML=`学习空间 <span class="slash">/</span> ${session?'专注练习':viewNames[view]}`;
   if(routeError){$('#main').innerHTML=`<div class="empty"><h1>${esc(routeError)}</h1><p>个人题目仅保存在创建它的浏览器中。公开题目、公司和情报可以用独立链接打开。</p><button class="button" data-action="bank">回到题库</button></div>`;return;}
   if(session)renderPractice();
   else if(view==='plan')renderPlan();
+  else if(view==='job')disposeJob=renderJobMatch($('#main'),{questions:all(),records:state.records,companies:COMPANIES,profile:state.jobMatch,dailySize:(state.preparation.goal||defaultGoal()).dailySize,loadCareer:loadCareerRecords,
+    onProfile:profile=>{state.jobMatch=validateJobProfile(profile);return save();},
+    onStart:candidates=>{try{const result=materializeJobQuestions(state.customQuestions,candidates);state.customQuestions=result.questions;beginGroup(result.ids,'job','');}catch(error){toast(error.message);}}});
   else if(view==='companies')selectedID?renderCompanyDetail(selectedID):renderCompanies();else if(view==='roadmap')renderRoadmap();else if(view==='career')renderCareer($('#main'),false,{id:selectedID,onChange:values=>writeLocation(routeHash('career','',values),true)});else if(view==='community')renderCommunity($('#main'));else renderBank();
   if(!session&&view!=='plan'&&state.preparation.active)$('#main').insertAdjacentHTML('afterbegin',resumeBanner(state.preparation.active));
   if(!storageOK)$('#main').insertAdjacentHTML('afterbegin','<p class="error" role="alert">浏览器记录未能读取或保存。当前操作暂存在内存中，请通过备考计划页“导出个人备份”保留数据；原存储不会被覆盖。</p>');
@@ -170,7 +177,7 @@ $('#question-form').addEventListener('submit',e=>{
     const editing=Boolean(editingID);const ok=save();$('#question-dialog').close();if(!editing){routeError='';selectedID='';state.prefs.company=company;state.prefs.role='all';state.prefs.track='all';state.prefs.source='all';state.prefs.topic=TOPICS.includes(values.topic)?values.topic:'all';query='';view='bank';session=null;save();}writeLocation(routeHash(session?'question':view,session?session.ids[session.index]:'',session?{}:{...state.prefs,query}));render();toast(ok?(editing?'题目已更新':'题目已加入你的个人题库'):'题目暂存于内存，请导出备份。');
   }catch(error){$('#form-error').textContent=error.message;}
 });
-function exportBackup(){const blob=new Blob([JSON.stringify({...state,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const anchor=document.createElement('a');anchor.href=url;anchor.download=`embodied-prep-${new Date().toISOString().slice(0,10)}.json`;anchor.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('备份已导出，包含个人题目、笔记、备考目标与练习进度。');}
+function exportBackup(){const blob=new Blob([JSON.stringify({...state,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const anchor=document.createElement('a');anchor.href=url;anchor.download=`embodied-prep-${new Date().toISOString().slice(0,10)}.json`;anchor.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('备份已导出，包含个人题目、笔记、备考目标、练习进度与岗位匹配文字。');}
 $('#backup-file').addEventListener('change',async e=>{
   const file=e.target.files?.[0];if(!file)return;
   try{

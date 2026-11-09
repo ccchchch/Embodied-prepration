@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 node_modules/
 dist/
+vendor/ocr/
 assets/sources/
 embodied-prep-*.json
 contrib-*.json

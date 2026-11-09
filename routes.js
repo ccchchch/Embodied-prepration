@@ -1,4 +1,4 @@
-export const VIEWS = ['bank','review','saved','companies','career','roadmap','community','plan'];
+export const VIEWS = ['bank','review','saved','companies','career','roadmap','community','plan','job'];
 export function readRoute(hash='') {
   try {
     const [path, query=''] = hash.replace(/^#\/?/, '').split('?');

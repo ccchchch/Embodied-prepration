@@ -3,11 +3,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node verify.mjs && node verify-career.mjs && node verify-community.mjs && node verify-preparation.mjs && node verify-dom.mjs && node verify-preparation-dom.mjs",
-    "build": "node scripts/build-site.mjs"
+    "test": "node verify.mjs && node verify-career.mjs && node verify-community.mjs && node verify-preparation.mjs && node verify-job-match.mjs && node verify-job-ocr.mjs && node verify-dom.mjs && node verify-preparation-dom.mjs && node verify-job-dom.mjs",
+    "build": "node scripts/build-site.mjs",
+    "prepare:ocr": "node scripts/prepare-ocr.mjs"
   },
-  "version": "0.3.0",
+  "version": "0.4.0",
   "devDependencies": {
-    "jsdom": "26.1.0"
+    "@tesseract.js-data/chi_sim": "1.0.0",
+    "@tesseract.js-data/eng": "1.0.0",
+    "jsdom": "26.1.0",
+    "tesseract.js": "7.0.0"
   }
 }

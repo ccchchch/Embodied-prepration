@@ -65,6 +65,12 @@ function salaryHTML(s){
   return `<section class="career-salary"><h3>薪资口径</h3><p class="career-quote">${esc(s.originalText)}</p><dl class="career-facts">${fields.map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl><p class="muted">信息位置：${esc(s.basis)}${s.note?` · ${esc(s.note)}`:''}</p></section>`;
 }
 export function careerRecord(id){return snapshot?.records.find(r=>r.id===id);}
+export async function loadCareerRecords(){
+  if(snapshot)return snapshot.records;
+  const response=await fetch('./career-data.json',{cache:'no-store'});
+  if(!response.ok)throw new Error('求职情报暂时无法读取');
+  snapshot=validateCareer(await response.json());return snapshot.records;
+}
 export function setCareerFilters(values={}){for(const key of Object.keys(filters))filters[key]=values[key]||(key==='query'?'':'all');}
 export function careerFilters(){return {...filters};}
 function recordHTML(r,detail=false){

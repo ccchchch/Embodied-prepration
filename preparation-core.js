@@ -33,7 +33,7 @@ function validateSession(value, validIDs, archived = false) {
   return {
     id:value.id, ids, index:Math.max(0, ids.indexOf(value.ids[value.index])), grades,
     startedAt:value.startedAt, updatedAt:value.updatedAt,
-    returnView:['bank','review','saved','career','plan'].includes(value.returnView) ? value.returnView : 'plan',
+    returnView:['bank','review','saved','career','plan','job'].includes(value.returnView) ? value.returnView : 'plan',
     returnId:typeof value.returnId === 'string' && /^[a-zA-Z0-9-]{1,100}$/.test(value.returnId) ? value.returnId : '',
     ...(archived ? {finishedAt:value.finishedAt, reason:value.reason} : {})
   };

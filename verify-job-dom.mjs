@@ -1,0 +1,58 @@
+import assert from 'node:assert/strict';
+import {JSDOM} from 'jsdom';
+import {readFile} from 'node:fs/promises';
+import {renderJobMatch} from './job-match.js';
+import {QUESTIONS,COMPANIES} from './data.js';
+const dom=new JSDOM('<main id="main"></main>',{url:'http://localhost:8765/#/job'});
+const {window}=dom;
+for(const key of ['window','document','FormData','Event'])Object.defineProperty(globalThis,key,{configurable:true,value:key==='window'?window:window[key]});
+let created=0,revoked=0,stored=null,started=null;
+const oldCreate=URL.createObjectURL,oldRevoke=URL.revokeObjectURL;
+URL.createObjectURL=()=>`blob:http://localhost:8765/fixture-${++created}`;URL.revokeObjectURL=()=>revoked++;
+const career=JSON.parse(await readFile(new URL('./career-data.json',import.meta.url),'utf8')).records;
+const fixture=JSON.parse(await readFile(new URL('./fixtures/job-screenshot.json',import.meta.url),'utf8'));
+const $=s=>document.querySelector(s),click=s=>{assert.ok($(s),'Missing '+s);$(s).click();};
+const settle=()=>new Promise(resolve=>setTimeout(resolve,20));
+const calls=[];
+const recognize=(file,options)=>new Promise((resolve,reject)=>{calls.push({file,options,resolve,reject});});
+const dispose=renderJobMatch($('#main'),{questions:QUESTIONS,records:{},companies:COMPANIES,profile:null,loadCareer:async()=>career,onProfile:value=>{stored=value;return true;},onStart:items=>{started=items;},recognize});
+await settle();
+function upload(name='job.png',type='image/png'){
+  const file=new window.File(['screenshot fixture'],name,{type});
+  Object.defineProperty($('#job-file'),'files',{configurable:true,value:[file]});$('#job-file').dispatchEvent(new Event('change',{bubbles:true}));
+}
+upload();assert.equal(calls.length,1);assert.equal($('#job-analyze').disabled,true);
+calls[0].resolve({text:fixture.text,confidence:90});await settle();
+assert.equal($('#job-text').value,fixture.text);assert.equal(stored,null,'OCR text must be reviewed before being saved and matched');
+$('#job-form').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));
+assert.ok(stored.skills.some(s=>s.id==='flow'));assert.ok($('.job-match-card'));
+assert.doesNotMatch(JSON.stringify(stored),/imageBase64|blob:|fixture-/);
+assert.equal($('[data-job-mode="recollection"]').getAttribute('aria-pressed'),'true');
+click('#job-start');assert.ok(started.length>0&&started.length<=5);assert.ok(started.every(c=>c.question.source.kind==='recollection'));
+click('[data-job-remove="flow"]');assert.ok(!stored.skills.some(s=>s.id==='flow'));
+$('#job-skill-add').value='flow';click('#job-add-skill');assert.ok(stored.skills.some(s=>s.id==='flow'));
+// Editing the text invalidates all old result actions immediately.
+$('#job-text').value='PRIVATE CURRENT JOB：熟悉 Flow Matching 与强化学习。';$('#job-text').dispatchEvent(new Event('input',{bubbles:true}));
+assert.equal($('#job-start'),null);const before=$('#job-text').value;
+upload();calls[1].resolve({text:'新增岗位要求：熟悉 ROS2、C++ 与机器人仿真。',confidence:45});await settle();
+assert.equal($('#job-text').value,before,'A second screenshot cannot overwrite current text');
+assert.ok(!$('#job-pending').hidden);assert.match($('#job-file-status').textContent,/仔细校对/);
+click('#job-append');assert.ok($('#job-text').value.startsWith(before));assert.match($('#job-text').value,/ROS2/);
+assert.equal($('#job-start'),null,'Appending a screenshot requires a fresh match');
+// Late results from a replaced upload cannot overwrite the most recent recognition.
+upload('first.png');upload('second.png');assert.equal(calls[2].options.signal.aborted,true);
+calls[3].resolve({text:'最新截图：负责世界模型与视频生成的研究。',confidence:90});await settle();
+calls[2].resolve({text:'过期截图：负责 SLAM 和机器人导航研究。',confidence:90});await settle();
+assert.match($('#job-pending').textContent,/最新截图/);assert.doesNotMatch($('#job-pending').textContent,/过期截图/);
+upload('cancel.png');click('#job-cancel');assert.ok(calls[4].options.signal.aborted);
+calls[4].reject(new DOMException('cancelled','AbortError'));await settle();assert.equal($('#job-analyze').disabled,false);assert.match($('#job-file-status').textContent,/已取消/);
+upload('unsafe.svg','image/svg+xml');assert.match($('#job-error').textContent,/PNG/);assert.equal(calls.length,5);
+upload('bad.png');calls[5].reject(new Error('图片损坏，无法读取'));await settle();assert.match($('#job-error').textContent,/图片损坏/);assert.equal($('#job-analyze').disabled,false);
+// HTML-like pasted content is rendered as plain text in requirements and evidence.
+$('#job-text').value='<img src=x onerror=alert(1)> 熟悉 VLA 和 Flow Matching。';$('#job-text').dispatchEvent(new Event('input',{bubbles:true}));
+$('#job-form').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));
+assert.equal($('#job-requirements').querySelectorAll('img').length,0);assert.equal($('#job-results').querySelectorAll('img').length,0);
+click('#job-clear');assert.equal(stored,null);assert.equal($('#job-text').value,'');assert.equal($('#job-start'),null);assert.equal(created,revoked,'Replacing and clearing images releases every preview URL');
+upload('leaving.png');dispose();assert.ok(calls[6].options.signal.aborted);calls[6].resolve({text:fixture.text,confidence:90});await settle();assert.equal($('#job-text').value,'','Leaving the page prevents late OCR from changing content');
+URL.createObjectURL=oldCreate;URL.revokeObjectURL=oldRevoke;dom.window.close();
+console.log('PASS: screenshot review, upload replacement/append, cancellation, stale results, failure feedback, editable requirements, source-specific queues, escaped content and private image cleanup.');
