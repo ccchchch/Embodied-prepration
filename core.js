@@ -1,3 +1,4 @@
+import {freshPreparation,validatePreparation,mergePreparation} from './preparation-core.js';
 export const STORAGE_KEY = 'embodied-prep-v1';
 export const TRACKS = ['VLA','Agentic Robotics','WAM','基础与工程'];
 export const TOPICS = ['预训练'];
@@ -6,7 +7,7 @@ export const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, c => 
 export function safeURL(value) {
   try { const url = new URL(value); return ['http:','https:'].includes(url.protocol) ? url.href : ''; } catch { return ''; }
 }
-export const freshState = () => ({schemaVersion:1,customQuestions:[],records:{},prefs:{company:'all',role:'all',source:'all',track:'all',topic:'all',sort:'recommended'}});
+export const freshState = () => ({schemaVersion:1,customQuestions:[],records:{},prefs:{company:'all',role:'all',source:'all',track:'all',topic:'all',sort:'recommended'},preparation:freshPreparation()});
 export const isDue = (record, now=Date.now()) => Boolean(record?.level && record.level !== 'new' && Number.isFinite(record.dueAt) && record.dueAt <= now);
 export function assess(record,level,now=Date.now()) {
   const delay={weak:0,learning:86400000,mastered:604800000}[level];
@@ -67,7 +68,7 @@ export function validateBackup(value,baseIDs) {
     for(const key of ['dueAt','lastAt','attempts'])if(r[key]!==undefined){if(!Number.isFinite(r[key])||r[key]<0)throw new Error('复习时间或次数不正确');entry[key]=r[key];}
     records[id]=entry;
   }
-  return {schemaVersion:1,customQuestions,records,prefs:object(value.prefs)?{
+  return {schemaVersion:1,customQuestions,records,preparation:validatePreparation(value.preparation,validIDs,TRACKS),prefs:object(value.prefs)?{
     company:typeof value.prefs.company==='string'?value.prefs.company:'all',role:typeof value.prefs.role==='string'?value.prefs.role:'all',
     source:['all','practice','recollection'].includes(value.prefs.source)?value.prefs.source:'all',track:['all',...TRACKS].includes(value.prefs.track)?value.prefs.track:'all',
     topic:TOPICS.includes(value.prefs.topic)?value.prefs.topic:'all',
@@ -77,5 +78,5 @@ export function validateBackup(value,baseIDs) {
 export function mergeBackup(current,incoming) {
   // Preserve existing records and questions on conflict; importing never silently overwrites local work.
   const currentIDs=new Set(current.customQuestions.map(q=>q.id));
-  return {...current,customQuestions:[...current.customQuestions,...incoming.customQuestions.filter(q=>!currentIDs.has(q.id))],records:{...incoming.records,...current.records}};
+  return {...current,customQuestions:[...current.customQuestions,...incoming.customQuestions.filter(q=>!currentIDs.has(q.id))],records:{...incoming.records,...current.records},preparation:mergePreparation(current.preparation,incoming.preparation)};
 }
