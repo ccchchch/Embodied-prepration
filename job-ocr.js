@@ -18,7 +18,11 @@ export async function recognizeImage(image,{signal,onProgress=()=>{},workerFacto
     check();onProgress({message:'正在加载截图识别工具',progress:0});
     let createWorker=workerFactory;
     if(!createWorker){
-      try{createWorker=(await import('./vendor/ocr/tesseract.esm.min.js')).createWorker;}
+      try{
+        const {default:Tesseract}=await import('./vendor/ocr/tesseract.esm.min.js');
+        createWorker=Tesseract?.createWorker;
+        if(typeof createWorker!=='function')throw new Error('Missing OCR worker factory');
+      }
       catch{throw new Error('截图识别工具暂未加载成功，请刷新重试，或直接粘贴岗位文字。');}
     }
     check();

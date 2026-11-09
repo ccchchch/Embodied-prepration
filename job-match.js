@@ -85,7 +85,7 @@ export function renderJobMatch(root,{questions,records,companies,profile:storedP
         pendingText=result.text;$('#job-pending').hidden=false;$('#job-pending').innerHTML=`<strong>截图已识别，选择如何使用新文字</strong><pre>${esc(pendingText)}</pre><button type="button" class="button" id="job-append">追加到现有文字</button> <button type="button" class="button" id="job-replace">替换现有文字</button>`;
         $('#job-append').onclick=()=>insertText(pendingText,true);$('#job-replace').onclick=()=>insertText(pendingText);
       }else insertText(result.text);
-    }catch(e){if(!disposed&&controller===current){if(e.name==='AbortError')$('#job-file-status').textContent='已取消识别，现有文字保留。';else error(e.message||'截图识别失败，请重试或直接粘贴文字。');}}
+    }catch(e){if(!disposed&&controller===current){if(e.name==='AbortError')$('#job-file-status').textContent='已取消识别，现有文字保留。';else{$('#job-file-status').textContent='识别未完成，可重新上传或直接粘贴岗位文字。';error(e.message||'截图识别失败，请重试或直接粘贴文字。');}}}
     finally{if(!disposed&&controller===current){$('#job-ocr-progress').hidden=true;$('#job-analyze').disabled=false;controller=null;}}
   }
   function chooseFiles(files){if(files.length!==1){error('请每次选择一张截图，识别后可以继续追加下一张。');return;}void upload(files[0]);}

@@ -48,11 +48,14 @@ upload('cancel.png');click('#job-cancel');assert.ok(calls[4].options.signal.abor
 calls[4].reject(new DOMException('cancelled','AbortError'));await settle();assert.equal($('#job-analyze').disabled,false);assert.match($('#job-file-status').textContent,/已取消/);
 upload('unsafe.svg','image/svg+xml');assert.match($('#job-error').textContent,/PNG/);assert.equal(calls.length,5);
 upload('bad.png');calls[5].reject(new Error('图片损坏，无法读取'));await settle();assert.match($('#job-error').textContent,/图片损坏/);assert.equal($('#job-analyze').disabled,false);
+assert.match($('#job-file-status').textContent,/识别未完成/);assert.doesNotMatch($('#job-file-status').textContent,/请稍候/);assert.equal($('#job-ocr-progress').hidden,true);
+upload('retry.png');calls[6].resolve({text:fixture.text,confidence:90});await settle();
+assert.equal($('#job-error').textContent,'');assert.match($('#job-file-status').textContent,/识别完成/);assert.equal($('#job-analyze').disabled,false);
 // HTML-like pasted content is rendered as plain text in requirements and evidence.
 $('#job-text').value='<img src=x onerror=alert(1)> 熟悉 VLA 和 Flow Matching。';$('#job-text').dispatchEvent(new Event('input',{bubbles:true}));
 $('#job-form').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));
 assert.equal($('#job-requirements').querySelectorAll('img').length,0);assert.equal($('#job-results').querySelectorAll('img').length,0);
 click('#job-clear');assert.equal(stored,null);assert.equal($('#job-text').value,'');assert.equal($('#job-start'),null);assert.equal(created,revoked,'Replacing and clearing images releases every preview URL');
-upload('leaving.png');dispose();assert.ok(calls[6].options.signal.aborted);calls[6].resolve({text:fixture.text,confidence:90});await settle();assert.equal($('#job-text').value,'','Leaving the page prevents late OCR from changing content');
+upload('leaving.png');dispose();assert.ok(calls[7].options.signal.aborted);calls[7].resolve({text:fixture.text,confidence:90});await settle();assert.equal($('#job-text').value,'','Leaving the page prevents late OCR from changing content');
 URL.createObjectURL=oldCreate;URL.revokeObjectURL=oldRevoke;dom.window.close();
 console.log('PASS: screenshot review, upload replacement/append, cancellation, stale results, failure feedback, editable requirements, source-specific queues, escaped content and private image cleanup.');

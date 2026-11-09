@@ -21,6 +21,32 @@ globalThis.createImageBitmap=async()=>{throw new Error('Invalid image data');};
 await assert.rejects(readScreenshot({type:'image/png',size:100}),/图片无法读取/);
 globalThis.createImageBitmap=originalBitmap;
 const fixture=JSON.parse(await readFile(new URL('./fixtures/job-screenshot.json',import.meta.url),'utf8'));
+// Exercise the exact lazy browser import. The distributed ESM bundle exports only a default object,
+// unlike the Node entry point used by the real-engine test below.
+const originalSelf=Object.getOwnPropertyDescriptor(globalThis,'self');
+globalThis.self=globalThis;
+const browserModule=await import('./vendor/ocr/tesseract.esm.min.js');
+const browserCreateWorker=browserModule.default.createWorker;
+assert.equal(typeof browserCreateWorker,'function');
+let browserOptions,browserTerminated=false;
+browserModule.default.createWorker=async(languages,oem,options)=>{
+  assert.deepEqual(languages,['eng','chi_sim']);assert.equal(oem,1);browserOptions=options;
+  return {
+    setParameters:async parameters=>assert.equal(parameters.tessedit_pageseg_mode,'6'),
+    recognize:async image=>{assert.equal(image,'browser-entry-fixture');return {data:{text:fixture.text,confidence:95}};},
+    terminate:async()=>{browserTerminated=true;}
+  };
+};
+try{
+  const browserResult=await recognizeImage('browser-entry-fixture',{timeout:1000});
+  assert.equal(browserResult.text,fixture.text);assert.ok(browserTerminated);
+  assert.deepEqual(Object.fromEntries(Object.keys(ocrPaths()).map(key=>[key,browserOptions[key]])),ocrPaths());
+  browserModule.default.createWorker=undefined;
+  await assert.rejects(recognizeImage('browser-entry-fixture',{timeout:1000}),/截图识别工具暂未加载成功/);
+}finally{
+  browserModule.default.createWorker=browserCreateWorker;
+  if(originalSelf)Object.defineProperty(globalThis,'self',originalSelf);else delete globalThis.self;
+}
 const result=await recognizeImage(Buffer.from(fixture.imageBase64,'base64'),{
   workerFactory:createWorker,workerOptions:{workerPath:fileURLToPath(new URL('./node_modules/tesseract.js/src/worker-script/node/index.js',import.meta.url)),langPath:fileURLToPath(new URL('./vendor/ocr/lang/',import.meta.url)),cacheMethod:'none'},timeout:45000
 });
@@ -36,4 +62,4 @@ resolveFactory({terminate:async()=>{terminated=true;}});await new Promise(resolv
 // Worker load failures and timeouts must reject instead of leaving the UI waiting indefinitely.
 await assert.rejects(recognizeImage('fixture',{workerFactory:async()=>{throw new Error('load failed');},timeout:100}),/load failed/);
 await assert.rejects(recognizeImage('fixture',{workerFactory:()=>new Promise(()=>{}),timeout:20}),/识别用时过长/);
-console.log('PASS: real Chinese/English screenshot OCR, recognized requirement priorities, same-origin assets, upload limits, cancellation, late cleanup and failure timeout.');
+console.log('PASS: distributed browser ESM loading, real Chinese/English screenshot OCR, requirement priorities, same-origin assets, upload limits, cancellation, late cleanup and failure timeout.');
